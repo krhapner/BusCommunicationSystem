@@ -282,3 +282,43 @@ main.main()
 2016/04/20 22:49:32 open /home/nitrous/.heroku/config.json: no such file or directory
 2016/04/20 23:17:38 open /home/nitrous/.heroku/config.json: no such file or directory
 2016/04/20 23:21:22 open /home/nitrous/.heroku/config.json: no such file or directory
+Heroku client internal error.
+Unable to find a browser command. If this is unexpected, Please rerun with environment variable LAUNCHY_DEBUG=true or the '-d' commandline option and file a bug at https://github.com/copiousfreetime/launchy/issues/new
+/usr/local/heroku/vendor/gems/launchy-2.4.3/lib/launchy/applications/browser.rb:63:in `browser_cmdline'
+/usr/local/heroku/vendor/gems/launchy-2.4.3/lib/launchy/applications/browser.rb:67:in `cmd_and_args'
+/usr/local/heroku/vendor/gems/launchy-2.4.3/lib/launchy/applications/browser.rb:78:in `open'
+/usr/local/heroku/vendor/gems/launchy-2.4.3/lib/launchy.rb:29:in `open'
+/usr/local/heroku/lib/heroku/helpers.rb:389:in `block in launchy'
+/usr/local/heroku/lib/heroku/helpers.rb:280:in `action'
+/usr/local/heroku/lib/heroku/helpers.rb:387:in `launchy'
+/usr/local/heroku/lib/heroku/command/apps.rb:233:in `open'
+/usr/local/heroku/lib/heroku/command.rb:212:in `run'
+/usr/local/heroku/lib/heroku/cli.rb:30:in `start'
+/usr/bin/heroku:25:in `<main>'
+Heroku client internal error.
+Unable to find a browser command. If this is unexpected, Please rerun with environment variable LAUNCHY_DEBUG=true or the '-d' commandline option and file a bug at https://github.com/copiousfreetime/launchy/issues/new
+/usr/local/heroku/vendor/gems/launchy-2.4.3/lib/launchy/applications/browser.rb:63:in `browser_cmdline'
+/usr/local/heroku/vendor/gems/launchy-2.4.3/lib/launchy/applications/browser.rb:67:in `cmd_and_args'
+/usr/local/heroku/vendor/gems/launchy-2.4.3/lib/launchy/applications/browser.rb:78:in `open'
+/usr/local/heroku/vendor/gems/launchy-2.4.3/lib/launchy.rb:29:in `open'
+/usr/local/heroku/lib/heroku/helpers.rb:389:in `block in launchy'
+/usr/local/heroku/lib/heroku/helpers.rb:280:in `action'
+/usr/local/heroku/lib/heroku/helpers.rb:387:in `launchy'
+/usr/local/heroku/lib/heroku/command/apps.rb:233:in `open'
+/usr/local/heroku/lib/heroku/command.rb:212:in `run'
+/usr/local/heroku/lib/heroku/cli.rb:30:in `start'
+/usr/bin/heroku:25:in `<main>'
+2016/04/20 23:34:03 open /home/nitrous/.heroku/config.json: no such file or directory
+Heroku client internal error.
+Unable to find a browser command. If this is unexpected, Please rerun with environment variable LAUNCHY_DEBUG=true or the '-d' commandline option and file a bug at https://github.com/copiousfreetime/launchy/issues/new
+/usr/local/heroku/vendor/gems/launchy-2.4.3/lib/launchy/applications/browser.rb:63:in `browser_cmdline'
+/usr/local/heroku/vendor/gems/launchy-2.4.3/lib/launchy/applications/browser.rb:67:in `cmd_and_args'
+/usr/local/heroku/vendor/gems/launchy-2.4.3/lib/launchy/applications/browser.rb:78:in `open'
+/usr/local/heroku/vendor/gems/launchy-2.4.3/lib/launchy.rb:29:in `open'
+/usr/local/heroku/lib/heroku/helpers.rb:389:in `block in launchy'
+/usr/local/heroku/lib/heroku/helpers.rb:280:in `action'
+/usr/local/heroku/lib/heroku/helpers.rb:387:in `launchy'
+/usr/local/heroku/lib/heroku/command/apps.rb:233:in `open'
+/usr/local/heroku/lib/heroku/command.rb:212:in `run'
+/usr/local/heroku/lib/heroku/cli.rb:30:in `start'
+/usr/bin/heroku:25:in `<main>'
