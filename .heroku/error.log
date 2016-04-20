@@ -322,3 +322,5 @@ Unable to find a browser command. If this is unexpected, Please rerun with envir
 /usr/local/heroku/lib/heroku/command.rb:212:in `run'
 /usr/local/heroku/lib/heroku/cli.rb:30:in `start'
 /usr/bin/heroku:25:in `<main>'
+2016/04/20 23:39:04 open /home/nitrous/.heroku/config.json: no such file or directory
+2016/04/20 23:40:08 open /home/nitrous/.heroku/config.json: no such file or directory
