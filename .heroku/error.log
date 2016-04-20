@@ -210,3 +210,74 @@ main.(*Cli).Run(0xab8560, 0xc82000a270, 0x3, 0x3, 0xecea9ef00)
 main.main()
 /Users/jdickey/src/github.com/heroku/heroku-cli/main.go:102 +0x126
 
+2016/04/20 22:13:04 heroku-cli: Installing core plugins...
+2016/04/20 22:13:11  !
+2016/04/20 22:13:11  ▸    npm ERR! error in /home/nitrous/.heroku/node_modules/heroku-spaces: ENOENT: no such file or directory, open '/home/nitrous/.heroku/node_modules/heroku-spaces/package.json'
+2016/04/20 22:13:11 goroutine 1 [running]:
+runtime/debug.Stack(0x0, 0x0, 0x0)
+/usr/local/Cellar/go/1.6.1/libexec/src/runtime/debug/stack.go:24 +0x80
+main.WarnIfError(0x7f246076d028, 0xc8200e6170)
+/Users/jdickey/src/github.com/heroku/heroku-cli/io.go:139 +0x131
+main.SetupBuiltinPlugins.func1()
+/Users/jdickey/src/github.com/heroku/heroku-cli/plugins.go:377 +0xa9
+main.action(0x905360, 0x23, 0x890ed0, 0x4, 0xc8200d9cb0)
+/Users/jdickey/src/github.com/heroku/heroku-cli/io.go:288 +0x1bb
+main.SetupBuiltinPlugins()
+/Users/jdickey/src/github.com/heroku/heroku-cli/plugins.go:382 +0xf5
+main.glob.func1(0xc8200160f0)
+/Users/jdickey/src/github.com/heroku/heroku-cli/command.go:227 +0x3f
+main.(*Cli).Run(0xab8560, 0xc82000a270, 0x3, 0x3, 0xecea9f500)
+/Users/jdickey/src/github.com/heroku/heroku-cli/cli.go:83 +0x5d9
+main.main()
+/Users/jdickey/src/github.com/heroku/heroku-cli/main.go:102 +0x126
+
+2016/04/20 22:13:12 heroku-cli: Installing core plugins (retrying)...
+2016/04/20 22:13:20  !
+2016/04/20 22:13:20  ▸    Error installing package. 
+ ▸    npm WARN enoent ENOENT: no such file or directory, open '/home/nitrous/.heroku/package.json'
+ ▸    npm WARN .heroku No description
+ ▸    npm WARN .heroku No repository field.
+ ▸    npm WARN .heroku No README data
+ ▸    npm WARN .heroku No license field.
+ ▸    npm ERR! Linux 4.2.0-18-generic
+ ▸    npm ERR! argv "/home/nitrous/.heroku/node-5.10.1-linux-amd64/node" "/home/nitrous/.heroku/npm-3.8.5/cli.js" "install" "heroku-git" "heroku-local" "heroku-orgs" "heroku-pipelines" "heroku-spaces"
+ ▸    npm ERR! node v5.10.1
+ ▸    npm ERR! npm  v3.8.5
+ ▸    npm ERR! path /home/nitrous/.heroku/node_modules/heroku-status
+ ▸    npm ERR! code EXDEV
+ ▸    npm ERR! errno -18
+ ▸    npm ERR! syscall rename
+ ▸    
+ ▸    npm ERR! EXDEV: cross-device link not permitted, rename '/home/nitrous/.heroku/node_modules/heroku-status' -> '/home/nitrous/.heroku/node_modules/.heroku-status.DELETE'
+ ▸    npm ERR! 
+ ▸    npm ERR! If you need help, you may report this error at:
+ ▸    npm ERR!     <https://github.com/npm/npm/issues>
+ ▸    
+ ▸    npm ERR! Please include the following file with any support request:
+ ▸    npm ERR!     /home/nitrous/.heroku/npm-debug.log
+ ▸    
+ ▸    Try running again with GODE_DEBUG=info to see more output.
+2016/04/20 22:13:20 goroutine 1 [running]:
+runtime/debug.Stack(0x0, 0x0, 0x0)
+/usr/local/Cellar/go/1.6.1/libexec/src/runtime/debug/stack.go:24 +0x80
+main.ExitIfError(0x7f246076d028, 0xc8203de370)
+/Users/jdickey/src/github.com/heroku/heroku-cli/io.go:183 +0x132
+main.SetupBuiltinPlugins.func1()
+/Users/jdickey/src/github.com/heroku/heroku-cli/plugins.go:380 +0x1de
+main.action(0x905360, 0x23, 0x890ed0, 0x4, 0xc8200d9cb0)
+/Users/jdickey/src/github.com/heroku/heroku-cli/io.go:288 +0x1bb
+main.SetupBuiltinPlugins()
+/Users/jdickey/src/github.com/heroku/heroku-cli/plugins.go:382 +0xf5
+main.glob.func1(0xc8200160f0)
+/Users/jdickey/src/github.com/heroku/heroku-cli/command.go:227 +0x3f
+main.(*Cli).Run(0xab8560, 0xc82000a270, 0x3, 0x3, 0xecea9f500)
+/Users/jdickey/src/github.com/heroku/heroku-cli/cli.go:83 +0x5d9
+main.main()
+/Users/jdickey/src/github.com/heroku/heroku-cli/main.go:102 +0x126
+
+2016/04/20 22:48:40 heroku-cli: Installing core plugins...
+2016/04/20 22:48:51 heroku-cli: Installing core plugins (retrying)...
+2016/04/20 22:49:01  done
+2016/04/20 22:49:01 Email: 
+2016/04/20 22:49:32 open /home/nitrous/.heroku/config.json: no such file or directory
+2016/04/20 23:17:38 open /home/nitrous/.heroku/config.json: no such file or directory
