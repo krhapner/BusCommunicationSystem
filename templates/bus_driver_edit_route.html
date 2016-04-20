@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block content %}
+
+<script>
+  function picture(){
+    var value = document.getElementById('condition_id').value;
+    console.log(value);
+    if ( value < 3) {
+      document.getElementById('GreenBus').style.display = 'block';
+      document.getElementById('YellowBus').style.display = 'none';
+      document.getElementById('RedBus').style.display = 'none';
+    } else if (value > 2 && value < 5){
+      document.getElementById('YellowBus').style.display = 'block';
+      document.getElementById('GreenBus').style.display = 'none';
+      document.getElementById('RedBus').style.display = 'none';
+    } else {
+      document.getElementById('RedBus').style.display = 'block';
+      document.getElementById('YellowBus').style.display = 'none';
+      document.getElementById('GreenBus').style.display = 'none';
+
+    }
+
+  }
+</script>
+
+<h1> Edit Route's Status:</h1><br>
+<h3>How late is the bus?</h3><br>
+<form action="" method="post">
+Select your route number:
+  <select name ="route_number">
+{% for route in Routes%}
+
+  <option type = "number" value="{{route.Route_number}}" >{{route.Route_number}}</option>
+    {% endfor %}
+
+</select><br><br>
+
+
+  
+  
+  Minutes Late: <select name="condition_id" class = "dropdown" id ="condition_id" onclick ="picture();">
+  {% for options in Conditions %}
+}
+      <option value="{{options.Condition_id}}" > {{options.Minutes_late}} </option>
+
+ {% endfor %}
+  </select><br> <br>
+  <img id="GreenBus" src="../static/GreenBus2.jpg"  width = 25% height = 25%></img>
+<img id="YellowBus" src="../static/YellowBus2.jpg"  style="display:none" width = 25% height = 25%></img>
+<img id="RedBus" src="../static/RedBus2.jpg" style="display:none" width = 25% height = 25%></img>
+   <br><br><input class="btn btn-default" type="submit" value="Update Minutes Late">
+
+ </form>
+
+  {% endblock %}

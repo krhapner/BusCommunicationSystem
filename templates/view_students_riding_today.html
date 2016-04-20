@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+<h1>List of Students: </h1>
+<br>
+<br>
+<h3>Students Riding the Bus Today: <strong>{{ day }}</strong></h3><br>
+
+
+
+{% for Student in Students %}
+
+  <h4><strong>Student ID</strong> {{ Student.Student_id }} <br></h4>
+  <strong>First Name</strong> {{ Student.First_name}} <br>
+  <strong>Last Name</strong> {{ Student.Last_name}} <br>
+  <strong>Address</strong> {{ Student.Address}} <br>
+  <strong>Birthdate</strong> {{ Student.Birthdate}} <br>
+{%endfor%}
+<br><br>
+<p>Click <a href="/bus_driver/{{driver_id}}">here</a> to go back to the Bus Driver main</p>
+
+  {% endblock %}

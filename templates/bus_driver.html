@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block content %}
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+
+    <div class="navbar-header">
+      <a class="navbar-brand" href = "/bus_driver/{{driver_id}}"><span class="glyphicon glyphicon-home"></span> Bus Driver Home </a>
+      <a class="navbar-brand" href="/bus_driver_edit_route/{{driver_id}}"><span class="glyphicon glyphicon-road"></span> Update Route Status</a>
+      <a class="navbar-brand" href="/view_students_riding_today/{{driver_id}}"><span class="glyphicon glyphicon-user"></span> View Students Riding Today</a>
+      <a class="navbar-brand" href='/bus_driver_message/{{driver_id}}'><span class="glyphicon glyphicon-envelope"></span> Messages
+          {% if show_red != 0 %}
+        <span style="color:red" class="glyphicon glyphicon-exclamation-sign"></span></p>
+          {% endif %}
+      </a>
+      <a class="navbar-brand" href = "/logout"><span class="glyphicon glyphicon-log-out"></span> Logout </a>
+    </div>
+ </nav>
+
+<h1>Welcome to the Bus Driver's View</h1>
+<br>
+<br>
+
+<h1>Student <span style="color:red">Emergency</span> Contact Info for Routes: </h1>
+<br>
+<br><br>
+
+
+
+{% for Student in Emergency_contact %}
+  <strong>Name</strong> {{ Student.First_name}} {{Student.Last_name}}
+<h5> <i>Emergency contact Info</i></h5>
+  <strong> First Name </strong> {{Student.Emer_First_name}} <br>
+  <strong> Last Name </strong> {{Student.Emer_Last_name}} <br>
+  <strong> Relationship </strong> {{Student.Relationship}} <br>
+  <strong> Phone </strong> {{Student.Phone}} <br>
+
+
+<br>
+{% endfor %}
+
+
+
+
+<br><br>
+
+
+{% endblock %}

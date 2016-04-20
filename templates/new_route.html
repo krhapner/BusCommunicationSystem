@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+<h1> New Route</h1>
+
+<h3> Add a new route </h3>
+<form action="" method="post">
+  <input type="text" placeholder="Pick up location" name="pick_up_location" value="{{request.form.pick_up_location}}"><br><br>
+  <input type="text" placeholder="Start time (7:00AM)" name="start_time" value="{{request.form.start_time}}"><br><br>
+  <input type="text" placeholder="Drop off location" name="drop_off_location" value="{{request.form.drop_off_location }}"><br><br>
+  <input type="text" placeholder="End time (7:00AM)" name="end_time" value="{{request.form.end_time }}"><br><br>
+
+
+
+ Bus Number: <select name ="bus_number" class="dropdown">
+  {% for Bus in Buses %}
+  <option value="{{Bus.Bus_number}}" > {{ Bus.Bus_number}} </option>
+  {% endfor %}
+  </select> <br><br>
+  Bus Driver: <select name ="driver_id" class="dropdown">
+  {% for Driver in Drivers %}
+  <option value="{{Driver.Driver_id}}" > {{ Driver.First_name}} {{ Driver.Last_name }}</option>
+  {% endfor %}
+  </select>
+
+
+  <br><br><input class="btn btn-default" type="submit" value="Add Route">
+</form>
+<br>
+
+<p>Click <a href="/show_all_routes">here</a> to view ALL Routes</p>
+
+
+{% endblock %}

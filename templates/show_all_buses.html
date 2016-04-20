@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+<h1>List of Buses: </h1>
+<br>
+<br><br>
+<h3>All Buses:</h3>
+{% for Bus in Buses %}
+<a href ="/edit_bus/{{Bus.Bus_number}}">
+  <strong>Bus Number</strong> {{ Bus.Bus_number }} <br>
+  <strong>Year</strong> {{ Bus.Make}} <br>
+  <strong>Model</strong> {{ Bus.Model}} <br>
+  <strong>Year</strong> {{ Bus.Year}} <br>
+  <strong>Capacity</strong> {{ Bus.Capacity}} <br>
+</a>
+
+<br>
+{% endfor %}
+
+<p>Click <a href="/admin">here</a> to go back to admin view</p>
+
+
+<br><br>
+
+{% endblock %}
+

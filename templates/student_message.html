@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+<h1>Send a new message to your bus driver</h1>
+
+<h3> Message Details: </h3>
+<form action="" method="post">
+  <input type="text" placeholder="Subject" name="subject" value="{{request.form.subject}}"><br><br>
+  <input type="text" placeholder="From" name="sender" value="{{request.form.sender}}"><br><br>
+  <div class="form-group">
+      <label for="comment">Message:</label>
+      <textarea class="form-control" rows="5" id="message" name = "message"></textarea>
+    </div>
+
+  <!--<input class="btn btn-default" type="submit" value="Send Message"><span class="glyphicon glyphicon-envelope"></span></input> -->
+
+ <button type="submit" class="btn btn-info">
+      <span class="glyphicon glyphicon-envelope"></span> Send Message
+    </button>
+
+
+  {% endblock %}

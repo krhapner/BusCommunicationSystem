@@ -1,0 +1,23 @@
+
+{% extends "base.html" %}
+{% block content %}
+
+
+<h1> Edit Bus </h1>
+
+<h3> Change information to edit</h3>
+<form action="" method="post">
+  {% for bus in Buses %}
+  <input type="text" placeholder="Make" name="make" value="{{bus.Make }}"><br><br>
+  <input type="text" placeholder="Model" name="model" value="{{bus.Model }}"><br><br>
+  <input type="text" placeholder="Year" name="year" value="{{bus.Year }}"><br><br>
+  <input type="text" placeholder="Capacity" name="capacity" value="{{bus.Capacity}}"><br><br>
+{% endfor %}
+  <input class="btn btn-default" type="submit" value="Edit Bus">
+</form>
+<br>
+
+<p>Click <a href="/show_all_buses">here</a> to view ALL Buses</p>
+
+
+{% endblock %}

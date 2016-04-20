@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+<h1>List of Routes: </h1>
+<br>
+<br><br>
+<h3>All Routes:</h3>
+{% for Route in Routes %}
+<a href ="/edit_route/{{Route.Route_number}}">
+  <strong>Route Number</strong> {{ Route.Route_number }} <br>
+  <strong>Pick_up_location</strong> {{ Route.Pick_up_location}} <br>
+  <strong>Start_time</strong> {{ Route.Start_time}} <br>
+  <strong>Drop_off_location</strong> {{ Route.Drop_off_location}} <br>
+  <strong>End_time</strong> {{ Route.End_time}} <br>
+  <strong>Minutes Late</strong> {{ Route.Minutes_late}} <br>
+</a>
+
+
+<br>
+{% endfor %}
+
+<p>Click <a href="/admin">here</a> to go back to admin view</p>
+
+
+<br><br>
+
+{% endblock %}
+

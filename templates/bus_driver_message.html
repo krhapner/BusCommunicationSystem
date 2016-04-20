@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+<h1> Message Inbox  <span  class="glyphicon glyphicon-inbox"></span></h1>
+<br>
+<br><h3> Messages: </h3><br>
+<form request="" method="POST">
+{% for message in messages %}
+
+  <strong>Date:</strong> {{ message.Date }}
+  <strong>From:</strong> {{ message.Sender }}<br>
+  <strong>Message:</strong> {{ message.Message}} <br>
+<input type="text" style="display:none" name="message_id" value="{{message.Message_id}}">
+  {%if message.Read == 0: %}
+  <button type = "button"><a href="/update_message/{{message.Driver_id}}/{{message.Message_id}}"><span style="color:blue" class="glyphicon glyphicon-eye-open"></span> Mark as Read</a> </button>
+  {% endif %}
+  <button type = "button"><a  href="/delete_message/{{message.Driver_id}}/{{message.Message_id}}"><span style="color:red" class="glyphicon glyphicon-remove"></span> Delete<br> </button></a><br><br>
+{%endfor%}
+
+</form><br>
+
+
+
+<br>
+
+
+<p>Click <a href="/bus_driver/{{driver_id}}">here</a> to go back to Bus Driver main</p>
+
+
+<br><br>
+
+{% endblock %}
+

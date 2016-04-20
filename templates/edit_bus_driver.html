@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+<h1> Update/Edit Bus Driver </h1>
+
+<h3> Edit Information</h3>
+<form action="" method="post">
+  {% for driver in Drivers %}
+  <input type="text" placeholder="First Name" name="firstname" value="{{driver.First_name}}"><br><br>
+  <input type="text" placeholder="Last Name" name="lastname" value="{{driver.Last_name }}"><br><br>
+  <input type="text" placeholder="Phone" name="phone" value="{{driver.Phone }}"><br><br>
+  <input class="btn btn-default" type="submit" value="Update Bus Driver">
+  {% endfor %}
+</form>
+<br>
+
+<p>Click <a href="/show_all_bus_drivers">here</a> to view ALL Bus Drivers</p>
+
+
+{% endblock %}

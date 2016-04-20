@@ -1,0 +1,26 @@
+
+{% extends "base.html" %}
+{% block content %}
+
+
+<h1>List of Bus Drivers: </h1>
+<br>
+<br><br>
+<h3>All Drivers:</h3>
+{% for Driver in Drivers %}
+<h4><strong>Driver ID</strong> {{ Driver.Driver_id }} <br></h4>
+<a href ="/edit_bus_driver/{{Driver.Driver_id}}">
+  <strong>First Name</strong> {{ Driver.First_name}} <br>
+  <strong>Last Name</strong> {{ Driver.Last_name}} <br>
+  <strong>Phone</strong> {{ Driver.Phone}} <br>
+</a>
+<br>
+{% endfor %}
+
+<p>Click <a href="/admin">here</a> to go back to admin view</p>
+
+
+<br><br>
+
+
+{% endblock %}

@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+<h1> Edit Route</h1>
+
+<h3> Change Information To Edit</h3>
+  {% for Route in Routes %}
+<form action="" method="post">
+  <input type="text" placeholder="Pick up location" name="pick_up_location" value="{{Route.Pick_up_location}}"><br><br>
+  <input type="text" placeholder="Start time (7:00AM)" name="start_time" value="{{Route.Start_time}}"><br><br>
+  <input type="text" placeholder="Drop off location" name="drop_off_location" value="{{Route.Drop_off_location}}"><br><br>
+  <input type="text" placeholder="End time (7:00AM)" name="end_time" value="{{Route.End_time }}"><br><br>
+
+ Bus Number: <select name ="bus_number" class="dropdown">
+  {% for Bus in Buses %}
+    {% if Bus.Bus_number == Route.Bus_number: %}
+      <option value="{{Bus.Bus_number}}" selected="selected"> {{ Bus.Bus_number}} </option>
+    {% else: %}
+      <option value="{{Bus.Bus_number}}" > {{ Bus.Bus_number}} </option>
+    {% endif %}
+  {% endfor %}
+  </select> <br><br>
+  Bus Driver: <select name ="driver_id" class="dropdown">
+  {% for Driver in Drivers %}
+    {% if Driver.Driver_id == Route.Driver_id: %}
+      <option value="{{Driver.Driver_id}}" selected = "selected"> {{Driver.First_name}} {{ Driver.Last_name }}</option>
+
+    {% else: %}
+      <option value="{{Driver.Driver_id}}" > {{ Driver.First_name}} {{ Driver.Last_name }}</option>
+  {% endif %}
+  {% endfor %}
+  </select><br><br>
+  Minutes Late: <select name="condition_id" class = "dropdown">
+  {% for options in Condition %}
+    {% if options.Minutes_late == Route.Minutes_late: %}
+      <option value="{{options.Condition_id}}" selected="selected" > {{options.Minutes_late}} </option>
+    {%else:%}
+      <option value="{{options.Condition_id}}" > {{options.Minutes_late}} </option>
+  {% endif %}
+  {% endfor %}
+  </select>
+  {% endfor %}
+
+  <br><br><input class="btn btn-default" type="submit" value="Update Route">
+</form>
+<br>
+
+<p>Click <a href="/show_all_routes">here</a> to view ALL Routes</p>
+
+
+{% endblock %}

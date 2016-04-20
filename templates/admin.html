@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+
+    <div class="navbar-header">
+      <a class="navbar-brand" href = "/admin"><span class="glyphicon glyphicon-home"></span> Admin Home </a>
+      <a class="navbar-brand" href="/new_student"><span class="glyphicon glyphicon-apple"></span>  Students</a>
+      <a class="navbar-brand" href="/new_bus_driver"><span class="glyphicon glyphicon-user"></span> Bus Drivers</a>
+      <a class="navbar-brand" href="/new_bus"> <span class="glyphicon glyphicon-wrench"></span>  Buses</a>
+      <a class="navbar-brand" href="/new_route"><span class="glyphicon glyphicon-road"></span> Routes </a>
+      <a class="navbar-brand" href = "/logout"><span class="glyphicon glyphicon-log-out"></span> Logout </a>
+    </div>
+ </nav>
+
+
+
+
+<h1>Welcome Admin!</h1>
+<br>
+  <h2> Status of all Buses </h2><br>
+<div class=row>
+  <div class="col-sm-4">
+    <h4>Number of Buses <b>on time </b><br>Status: <i>Green</i><br><div class="span7 text-center"> <h1>{{ On_time_buses[0] }}</h1> </div>
+  </div>
+    <div class="col-sm-4">
+      <h4>Number of Buses <b>running a little late</b> <br>Status: <i>Yellow</i><br><div class="span7 text-center">  <h1>{{ yellow_buses[0] }}</h1> </div>
+  </div>
+      <div class="col-sm-4">
+  <h4>Number of Buses <b>running very late </b> <br>Status: <i>Red</i><br><div class="span7 text-center">  <h1>{{ very_late[0] }}</h1> </div></h4>
+  </div></div>
+  <div class="row">
+    <div class="col-sm-4"><img src="../static/GreenBus2.jpg" width = 100% height = 100%/></div>
+    <div class="col-sm-4"><img src="../static/YellowBus2.jpg" width = 100% height = 100%/></div>
+    <div class="col-sm-4"><img src="../static/RedBus2.jpg" width = 100% height = 100%/></div>
+    </div>
+
+    <i><h5>  <span class="glyphicon glyphicon-exclamation-sign"></span> Route Number(s) that have number of students greater than or equal to bus capacity:</i>
+    {% for row in past_capacity %}
+      <strong>{{row.Route_number}}</strong>
+      {% endfor %} </h5><br>
+
+<p>Click <a href="/logout">here</a> to logout.</p>
+<br><br>
+
+
+
+
+
+{% endblock %}

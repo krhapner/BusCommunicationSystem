@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block content %}
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href = "/student_parent_view/{{student_id}}"><span class="glyphicon glyphicon-home"></span> Home </a>
+      <a class="navbar-brand" href='/student_message/{{student_id}}'><span class="glyphicon glyphicon-envelope"></span> Send Message </a>
+      <a class="navbar-brand" href = "/logout">  <span class="glyphicon glyphicon-log-out"></span> Logout </a>
+
+    </div>
+ </nav>
+
+<h1>Welcome Parents/Students! </h1>
+{% for info in Route_info %}
+<h4><strong> Student Name: </strong> {{info.First_name}} {{info.Last_name}}</h4>
+
+<h3> <i>Route Status</i> </h3>
+  <h4>
+    <strong> Status: </strong> {{info.Color}} <br>
+    <strong> Description: </strong> {{info.Description}} <br>
+    <strong> Minutes Late: </strong> {{info.Minutes_late}}<br></h4>
+  {% if info.Color == "Green" : %}
+<img class = "img-responsive" src="../static/GreenBus2.jpg" width = 40% height=40%></img>
+  {% elif info.Color == "Red" : %}
+<img  class = "img-responsive" src="../static/RedBus2.jpg" width = 40% height=40%></img>
+  {% else: %}
+<img  class = "img-responsive" src="../static/YellowBus2.jpg" width = 40% height=40%></img>
+  {% endif %}
+
+<h3> Route Information </h3>
+<strong> Pick up location: </strong> {{info.Pick_up_location}}
+<strong> Time:     </strong> {{info.Start_time}}<br>
+<strong> Drop off location:</strong> {{info.Drop_off_location}}
+<strong> Time:    </strong> {{info.End_time}}<br>
+
+  <br>
+
+{% endfor %}
+<h3> Bus Driver Information </h3>
+  {% for row in driver_info %}
+  <strong> Name: </strong> {{row.Driver_First_name}} {{row.Driver_Last_name}} <br>
+  <strong> Phone Number: </strong> {{row.Driver_Phone}}
+  {% endfor %}
+
+  <br><br>
+
+<p>Click <a href="/">here</a> to go back to HOME</p>
+
+
+{% endblock %}

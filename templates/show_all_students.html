@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1>List of Students: </h1>
+<br>
+<br><br>
+<h3>All Students:</h3>
+{% for Student in Students %}
+
+  <h4><strong>Student ID</strong> {{ Student.Student_id }} <br></h4>
+<a href ="/edit_student/{{Student.Student_id}}">
+  <strong>First Name</strong> {{ Student.First_name}} <br>
+  <strong>Last Name</strong> {{ Student.Last_name}} <br>
+  <strong>Address</strong> {{ Student.Address}} <br>
+  <strong>Birthdate</strong> {{ Student.Birthdate}} <br>
+  <strong>Route Number </strong> {{Student.Route_number}} <br>
+  <h5> <i>Emergency contact Info</i></h5>
+  <strong> First Name </strong> {{Student.Emer_First_name}} <br>
+  <strong> Last Name </strong> {{Student.Emer_Last_name}} <br>
+  <strong> Relationship </strong> {{Student.Relationship}} <br>
+  <strong> Phone </strong> {{Student.Phone}} <br>
+  <h5> <i>Schedule</i></h5>
+  <strong> Monday </strong> {{Student.Monday}} <br>
+  <strong> Tuesday </strong> {{Student.Tuesday}} <br>
+  <strong> Wednesday </strong> {{Student.Wednesday}} <br>
+  <strong> Thursday </strong> {{Student.Thursday}} <br>
+  <strong> Friday </strong> {{Student.Friday}} <br>
+</a>
+<br>
+{% endfor %}
+
+<p>Click <a href="/admin">here</a> to go back to admin view</p>
+
+
+<br><br>
+
+
+{% endblock %}

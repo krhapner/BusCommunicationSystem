@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1>Sign Up</h1>
+<br>
+<form action="" method="post">
+  <input type="text" placeholder="Username" name="username" value="{{request.form.username }}"><br><br>
+  <input type="password" placeholder="Password" name="password" value="{{request.form.password }}"><br><br>
+
+
+<h1> New Student </h1>
+
+
+<form action="" method="post"  class="form-inline" role="form">
+
+<div class="row">
+  <div class="col-sm-4">
+    <h3> General Information </h3>
+  <input type="text" placeholder="First Name" name="firstname" value="{{request.form.firstname }}"><br><br>
+  <input type="text" placeholder="Last Name" name="lastname" value="{{request.form.lastname }}"><br><br>
+  <input type="text" placeholder="Address" name="address" value="{{request.form.address }}"><br><br>
+  <input type="text" placeholder="Birthdate (yyyy-mm-dd)" name="birthdate" value="{{request.form.birthdate }}"><br><br>
+
+  </div>
+  <div class="col-sm-4">
+  <h3> Emergency Contact Information </h3>
+   <input type="text" placeholder="First Name" name="emer_firstname" value="{{request.form.emer_firstname }}"><br><br>
+  <input type="text" placeholder="Last Name" name="emer_lastname" value="{{request.form.emer_lastname }}"><br><br>
+  <input type="text" placeholder="Relationship To Student" name="relationship" value="{{request.form.relationship }}"><br><br>
+  <input type="text" placeholder="Phone 555-555-5555" name="phone" value="{{request.form.phone }}"><br><br>
+
+    </div>
+    <div class="col-sm-4">
+   <h3> Student Schedue </h3>
+     <p> - Days to pick student up - </p>
+
+        <label><input type="checkbox" value="1" name="monday">  Monday</label><br>
+        <label><input type="checkbox" value="1" name="tuesday">  Tuesday</label><br>
+        <label><input type="checkbox" value="1" name="wednesday">  Wednesday</label><br>
+        <label><input type="checkbox" value="1" name="thursday">  Thursday</label><br>
+        <label><input type="checkbox" value="1" name="friday">  Friday</label><br>
+
+  </div>
+    </div>
+    <br><br>
+  <input class="btn btn-default" type="submit" value="Create Account">
+</form>
+<br>
+
+
+<p>Click <a href="/">here</a> to go HOME</p>
+
+
+
+
+{% endblock %}

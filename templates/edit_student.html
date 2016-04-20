@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+
+<h1> Edit/Update Student Information</h1>
+
+
+<form action="" method="post"  class="form-inline" role="form">
+
+<div class="row">
+  <div class="col-sm-4">
+    <h3> General Information </h3>
+    {%for student in Students%}
+  <input type="text" placeholder="First Name" name="firstname" value="{{student.First_name }}"><br><br>
+  <input type="text" placeholder="Last Name" name="lastname" value="{{student.Last_name }}"><br><br>
+  <input type="text" placeholder="Address" name="address" value="{{student.Address }}"><br><br>
+  <input type="text" placeholder="Birthdate (yyyy-mm-dd)" name="birthdate" value="{{student.Birthdate }}"><br><br>
+  Add student to a Route Number: <select name ="route_number" class="dropdown">
+  {% for Route in Routes %}
+    {% if Route.Route_number == student.Route_number %}
+     <option value="{{Route.Route_number}}" selected="selected" > {{Route.Route_number}}</option>
+    {%else: %}
+  <option value="{{Route.Route_number}}" > {{Route.Route_number}}</option>
+    {% endif %}
+  {% endfor %}
+  </select><br><br>
+  </div>
+  <div class="col-sm-4">
+  <h3> Emergency Contact Information </h3>
+   <input type="text" placeholder="First Name" name="emer_firstname" value="{{student.Emer_First_name}}"><br><br>
+  <input type="text" placeholder="Last Name" name="emer_lastname" value="{{student.Emer_Last_name }}"><br><br>
+  <input type="text" placeholder="Relationship To Student" name="relationship" value="{{student.Relationship }}"><br><br>
+  <input type="text" placeholder="Phone 555-555-5555" name="phone" value="{{student.Phone }}"><br><br>
+
+    </div>
+    <div class="col-sm-4">
+   <h3> Student Schedue </h3>
+     <p> - Days to pick student up - </p>
+        {% if student.Monday == 1 %}
+        <label><input type="checkbox" value="1" checked = "checked" name="monday">  Monday</label><br>
+        {% else: %}
+        <label><input type="checkbox" value="1"  name="monday">  Monday</label><br>
+        {% endif %}
+        {% if student.Tuesday == 1 %}
+        <label><input type="checkbox" value="1" checked = "checked" name="tuesday">  Tuesday</label><br>
+        {% else: %}
+        <label><input type="checkbox" value="1"  name="tuesday">  Tuesday</label><br>
+        {% endif %}
+        {% if student.Wednesday == 1 %}
+        <label><input type="checkbox" value="1" checked = "checked" name="wednesday">  Wednesday</label><br>
+        {% else: %}
+        <label><input type="checkbox" value="1"  name="wednesday">  Wednesday</label><br>
+        {% endif %}
+        {% if student.Thursday == 1 %}
+        <label><input type="checkbox" value="1" checked = "checked" name="thursday"> Thursday</label><br>
+        {% else: %}
+        <label><input type="checkbox" value="1"  name="thursday">  Thursday</label><br>
+        {% endif %}
+        {% if student.Friday == 1 %}
+        <label><input type="checkbox" value="1" checked = "checked" name="friday"> Friday</label><br>
+        {% else: %}
+        <label><input type="checkbox" value="1"  name="friday">  Friday</label><br>
+        {% endif %}
+
+
+
+  </div>
+    </div>
+  {% endfor %}
+    <br><br>
+  <input class="btn btn-default" type="submit" value="Update Student">
+</form>
+<br>
+
+
+<p>Click <a href="/show_all_students">here</a> to view ALL Students</p>
+
+
+
+
+{% endblock %}

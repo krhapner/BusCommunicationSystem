@@ -1,0 +1,718 @@
+------------------------------------------------------------
+/usr/bin/pip run on Fri Apr  8 21:54:12 2016
+Downloading/unpacking flask
+  Getting page https://pypi.python.org/simple/flask/
+  URLs to search for versions for flask:
+  * https://pypi.python.org/simple/flask/
+  Analyzing links from page https://pypi.python.org/simple/flask/
+    Found link https://pypi.python.org/packages/source/F/Flask/Flask-0.1.tar.gz#md5=d0c458397c49114fa279716798ca80c8 (from https://pypi.python.org/simple/flask/), version: 0.1
+    Found link https://pypi.python.org/packages/source/F/Flask/Flask-0.10.1.tar.gz#md5=378670fe456957eb3c27ddaef60b2b24 (from https://pypi.python.org/simple/flask/), version: 0.10.1
+    Found link https://pypi.python.org/packages/source/F/Flask/Flask-0.10.tar.gz#md5=92bc6b6ebd37d3120c235430a0491a15 (from https://pypi.python.org/simple/flask/), version: 0.10
+    Found link https://pypi.python.org/packages/source/F/Flask/Flask-0.2.tar.gz#md5=6926822b17cc5c7baa7df9d22c9cf114 (from https://pypi.python.org/simple/flask/), version: 0.2
+    Found link https://pypi.python.org/packages/source/F/Flask/Flask-0.3.1.tar.gz#md5=22bde65fbbcd93c6509b9939817e3853 (from https://pypi.python.org/simple/flask/), version: 0.3.1
+    Found link https://pypi.python.org/packages/source/F/Flask/Flask-0.3.tar.gz#md5=5beb1e1b3c243d3ca078fe1ea9d6dbd8 (from https://pypi.python.org/simple/flask/), version: 0.3
+    Found link https://pypi.python.org/packages/source/F/Flask/Flask-0.4.tar.gz#md5=aec554ae684e7ff5895fd1b5c0dea378 (from https://pypi.python.org/simple/flask/), version: 0.4
+    Found link https://pypi.python.org/packages/source/F/Flask/Flask-0.5.1.tar.gz#md5=c54da4a640554eb616e4210f256199e6 (from https://pypi.python.org/simple/flask/), version: 0.5.1
+    Found link https://pypi.python.org/packages/source/F/Flask/Flask-0.5.2.tar.gz#md5=002b8ff41fa14d82662b1d7763f77855 (from https://pypi.python.org/simple/flask/), version: 0.5.2
+    Found link https://pypi.python.org/packages/source/F/Flask/Flask-0.5.tar.gz#md5=b5580ae05d75d80485c8694532f95910 (from https://pypi.python.org/simple/flask/), version: 0.5
+    Found link https://pypi.python.org/packages/source/F/Flask/Flask-0.6.1.tar.gz#md5=7af56e33fb6a35db2818c20e604c8698 (from https://pypi.python.org/simple/flask/), version: 0.6.1
+    Found link https://pypi.python.org/packages/source/F/Flask/Flask-0.6.tar.gz#md5=55a5222123978c8c16dae385724c0f3a (from https://pypi.python.org/simple/flask/), version: 0.6
+    Found link https://pypi.python.org/packages/source/F/Flask/Flask-0.7.1.tar.gz#md5=4705d31035839dec320a1fd76ac2fa30 (from https://pypi.python.org/simple/flask/), version: 0.7.1
+    Found link https://pypi.python.org/packages/source/F/Flask/Flask-0.7.2.tar.gz#md5=a6f52d8de1f536ec982b363e4b6a0387 (from https://pypi.python.org/simple/flask/), version: 0.7.2
+    Found link https://pypi.python.org/packages/source/F/Flask/Flask-0.7.tar.gz#md5=1aaf5504ae28925fb97fb3ab8b85d3cd (from https://pypi.python.org/simple/flask/), version: 0.7
+    Found link https://pypi.python.org/packages/source/F/Flask/Flask-0.8.1.tar.gz#md5=4b9e866bf43723d834b3ce8fcd13574d (from https://pypi.python.org/simple/flask/), version: 0.8.1
+    Found link https://pypi.python.org/packages/source/F/Flask/Flask-0.8.tar.gz#md5=a5169306cfe49b3b369086f2a63816ab (from https://pypi.python.org/simple/flask/), version: 0.8
+    Found link https://pypi.python.org/packages/source/F/Flask/Flask-0.9.tar.gz#md5=4a89ef2b3ab0f151f781182bd0cc8933 (from https://pypi.python.org/simple/flask/), version: 0.9
+  Using version 0.10.1 (newest of versions: 0.10.1, 0.10, 0.9, 0.8.1, 0.8, 0.7.2, 0.7.1, 0.7, 0.6.1, 0.6, 0.5.2, 0.5.1, 0.5, 0.4, 0.3.1, 0.3, 0.2, 0.1)
+  Downloading from URL https://pypi.python.org/packages/source/F/Flask/Flask-0.10.1.tar.gz#md5=378670fe456957eb3c27ddaef60b2b24 (from https://pypi.python.org/simple/flask/)
+  Running setup.py (path:/tmp/pip_build_nitrous/flask/setup.py) egg_info for package flask
+    running egg_info
+    creating pip-egg-info/Flask.egg-info
+    writing requirements to pip-egg-info/Flask.egg-info/requires.txt
+    writing pip-egg-info/Flask.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/Flask.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/Flask.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/Flask.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'pip-egg-info/Flask.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    warning: no files found matching '*' under directory 'tests'
+    warning: no previously-included files matching '*.pyc' found under directory 'docs'
+    warning: no previously-included files matching '*.pyo' found under directory 'docs'
+    warning: no previously-included files matching '*.pyc' found under directory 'tests'
+    warning: no previously-included files matching '*.pyo' found under directory 'tests'
+    warning: no previously-included files matching '*.pyc' found under directory 'examples'
+    warning: no previously-included files matching '*.pyo' found under directory 'examples'
+    no previously-included directories found matching 'docs/_build'
+    no previously-included directories found matching 'docs/_themes/.git'
+    writing manifest file 'pip-egg-info/Flask.egg-info/SOURCES.txt'
+  Source in /tmp/pip_build_nitrous/flask has version 0.10.1, which satisfies requirement flask
+Downloading/unpacking Werkzeug>=0.7 (from flask)
+  Getting page https://pypi.python.org/simple/Werkzeug/
+  URLs to search for versions for Werkzeug>=0.7 (from flask):
+  * https://pypi.python.org/simple/Werkzeug/
+  Analyzing links from page https://pypi.python.org/simple/werkzeug/
+    Skipping link https://pypi.python.org/packages/2.3/W/Werkzeug/Werkzeug-0.3-py2.3.egg#md5=c2d8c63d19cd9be69566a80249cf746b (from https://pypi.python.org/simple/werkzeug/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.3/W/Werkzeug/Werkzeug-0.3.1-py2.3.egg#md5=5f669acf04af135ad8577d99a4387504 (from https://pypi.python.org/simple/werkzeug/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/W/Werkzeug/Werkzeug-0.1-py2.4.egg#md5=3395e2c1770b2df9b26b5e33406b322c (from https://pypi.python.org/simple/werkzeug/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/W/Werkzeug/Werkzeug-0.2-py2.4.egg#md5=5051e439cce3ca7fb5c4a4393ccc7012 (from https://pypi.python.org/simple/werkzeug/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/W/Werkzeug/Werkzeug-0.3-py2.4.egg#md5=6b66a5a0986d005781a248993c3e270c (from https://pypi.python.org/simple/werkzeug/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/W/Werkzeug/Werkzeug-0.3.1-py2.4.egg#md5=b242a4b1a03d0f85b6521ffec72900f8 (from https://pypi.python.org/simple/werkzeug/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/W/Werkzeug/Werkzeug-0.1-py2.5.egg#md5=2dd76797de7eabf0eee41e4d8c80ba73 (from https://pypi.python.org/simple/werkzeug/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/W/Werkzeug/Werkzeug-0.2-py2.5.egg#md5=aa3ac768542f620f9005eb5a64ad5cb0 (from https://pypi.python.org/simple/werkzeug/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/W/Werkzeug/Werkzeug-0.3-py2.5.egg#md5=1217f0819b993b7e20066c1507f2f90c (from https://pypi.python.org/simple/werkzeug/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/W/Werkzeug/Werkzeug-0.3.1-py2.5.egg#md5=9ef7e15b78985481feb6289fb21f1238 (from https://pypi.python.org/simple/werkzeug/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/2.7/W/Werkzeug/Werkzeug-0.10.2-py2.py3-none-any.whl#md5=d4c7c680f442471bb84735f15551f3cb (from https://pypi.python.org/simple/werkzeug/), version: 0.10.2
+    Found link https://pypi.python.org/packages/2.7/W/Werkzeug/Werkzeug-0.10.4-py2.py3-none-any.whl#md5=4017a2ed262cfa973f76108eb488e5be (from https://pypi.python.org/simple/werkzeug/), version: 0.10.4
+    Found link https://pypi.python.org/packages/2.7/W/Werkzeug/Werkzeug-0.11-py2.py3-none-any.whl#md5=b853f46b245d36161f235bd311fb7263 (from https://pypi.python.org/simple/werkzeug/), version: 0.11
+    Found link https://pypi.python.org/packages/2.7/W/Werkzeug/Werkzeug-0.11.1-py2.py3-none-any.whl#md5=ff8452a255afa44a5fcb1b79a3da2f27 (from https://pypi.python.org/simple/werkzeug/), version: 0.11.1
+    Found link https://pypi.python.org/packages/2.7/W/Werkzeug/Werkzeug-0.11.2-py2.py3-none-any.whl#md5=a21a2329d977837d5f9faa9068cfb05e (from https://pypi.python.org/simple/werkzeug/), version: 0.11.2
+    Found link https://pypi.python.org/packages/2.7/W/Werkzeug/Werkzeug-0.11.3-py2.py3-none-any.whl#md5=111eb38fe31ce6d17fd840bc4024286c (from https://pypi.python.org/simple/werkzeug/), version: 0.11.3
+    Found link https://pypi.python.org/packages/2.7/W/Werkzeug/Werkzeug-0.11.4-py2.py3-none-any.whl#md5=6185433b025f5bfe90d8a670e97ca47f (from https://pypi.python.org/simple/werkzeug/), version: 0.11.4
+    Found link https://pypi.python.org/packages/2.7/W/Werkzeug/Werkzeug-0.11.5-py2.py3-none-any.whl#md5=7d5d6360f14e431de6fb10dfdece9e51 (from https://pypi.python.org/simple/werkzeug/), version: 0.11.5
+    Found link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.1.tar.gz#md5=28ae0702cd3af4f1c655e2f8273d8c9f (from https://pypi.python.org/simple/werkzeug/), version: 0.1
+    Found link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.10.1.tar.gz#md5=231d10996b7c3c1efe1776f22d570f83 (from https://pypi.python.org/simple/werkzeug/), version: 0.10.1
+    Found link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.10.2.tar.gz#md5=66cccf6e98bbddc04bd9768c5e5e4b37 (from https://pypi.python.org/simple/werkzeug/), version: 0.10.2
+    Found link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.10.4.tar.gz#md5=66a488e0ac50a9ec326fe020b3083450 (from https://pypi.python.org/simple/werkzeug/), version: 0.10.4
+    Found link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.10.tar.gz#md5=42ebf43b19475bf856fde740050d7707 (from https://pypi.python.org/simple/werkzeug/), version: 0.10
+    Found link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.11.1.tar.gz#md5=dd90173db2deb17a75933a8dc3cdc4db (from https://pypi.python.org/simple/werkzeug/), version: 0.11.1
+    Found link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.11.2.tar.gz#md5=b3b90c940ab5f77a1e96313263c6d288 (from https://pypi.python.org/simple/werkzeug/), version: 0.11.2
+    Found link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.11.3.tar.gz#md5=9479bc7ea6a42c2d0d82929d3926df67 (from https://pypi.python.org/simple/werkzeug/), version: 0.11.3
+    Found link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.11.4.tar.gz#md5=9c5cfb704e39aea1524777caa5891eb0 (from https://pypi.python.org/simple/werkzeug/), version: 0.11.4
+    Found link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.11.5.tar.gz#md5=daf443a939459e12f14fd2e4658a26df (from https://pypi.python.org/simple/werkzeug/), version: 0.11.5
+    Found link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.11.tar.gz#md5=f6cc409c534a6cd115b7f96fc77b7a62 (from https://pypi.python.org/simple/werkzeug/), version: 0.11
+    Found link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.2.tar.gz#md5=4f045b31ea7495361d1193a60be46930 (from https://pypi.python.org/simple/werkzeug/), version: 0.2
+    Found link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.3.1.tar.gz#md5=6119c0d9084cebc4103969616c9ac2ba (from https://pypi.python.org/simple/werkzeug/), version: 0.3.1
+    Found link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.3.tar.gz#md5=ec66867dfa0f8f84dd694d06ced394c2 (from https://pypi.python.org/simple/werkzeug/), version: 0.3
+    Found link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.4.1.tar.gz#md5=9bc096feb9fc43ea9f6c558b9c330c3e (from https://pypi.python.org/simple/werkzeug/), version: 0.4.1
+    Found link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.4.tar.gz#md5=40483df016b2116450ec9ceb66acd700 (from https://pypi.python.org/simple/werkzeug/), version: 0.4
+    Found link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.5.1.zip#md5=620955f34b8424c92674fe76d5c47679 (from https://pypi.python.org/simple/werkzeug/), version: 0.5.1
+    Found link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.5.tar.gz#md5=d980e9c332a16db3538798aa303b1af5 (from https://pypi.python.org/simple/werkzeug/), version: 0.5
+    Found link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.6.1.tar.gz#md5=f4d3e131b111c1f48aa1d1cb0b82531c (from https://pypi.python.org/simple/werkzeug/), version: 0.6.1
+    Found link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.6.2.tar.gz#md5=519408350346a247333bb5d584371724 (from https://pypi.python.org/simple/werkzeug/), version: 0.6.2
+    Found link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.6.tar.gz#md5=b84236e8d9a012591f26fd211fa2c84e (from https://pypi.python.org/simple/werkzeug/), version: 0.6
+    Found link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.7.1.tar.gz#md5=d5f2107fb2317944079b1c3019330c38 (from https://pypi.python.org/simple/werkzeug/), version: 0.7.1
+    Found link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.7.2.tar.gz#md5=a9ff192fcc60806e778344a36ff840f6 (from https://pypi.python.org/simple/werkzeug/), version: 0.7.2
+    Found link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.7.tar.gz#md5=264d1beaa2676fc9216688c8b95c8833 (from https://pypi.python.org/simple/werkzeug/), version: 0.7
+    Found link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.8.1.tar.gz#md5=20f3a65710d64f9f455111ed71e3da66 (from https://pypi.python.org/simple/werkzeug/), version: 0.8.1
+    Found link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.8.2.tar.gz#md5=d4fcc1c9c5a4c4d148b87e5b581f9dea (from https://pypi.python.org/simple/werkzeug/), version: 0.8.2
+    Found link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.8.3.tar.gz#md5=12aa03e302ce49da98703938f257347a (from https://pypi.python.org/simple/werkzeug/), version: 0.8.3
+    Found link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.8.tar.gz#md5=6b20fc6ce88ec9e6726874ec72bb3645 (from https://pypi.python.org/simple/werkzeug/), version: 0.8
+    Found link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.9.1.tar.gz#md5=41ff407867a90c6f252cdacf2d6c2fd4 (from https://pypi.python.org/simple/werkzeug/), version: 0.9.1
+    Found link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.9.2.tar.gz#md5=d4bf6dc46aaa792ac9290761095c2b99 (from https://pypi.python.org/simple/werkzeug/), version: 0.9.2
+    Found link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.9.3.tar.gz#md5=a040b7e8861111926e5cbe968b36d7c5 (from https://pypi.python.org/simple/werkzeug/), version: 0.9.3
+    Found link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.9.4.tar.gz#md5=670fad41f57c13b71a6816765765a3dd (from https://pypi.python.org/simple/werkzeug/), version: 0.9.4
+    Found link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.9.5.tar.gz#md5=e4ba9dc1149c56c07d698f850956210a (from https://pypi.python.org/simple/werkzeug/), version: 0.9.5
+    Found link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.9.6.tar.gz#md5=f7afcadc03b0f2267bdc156c34586043 (from https://pypi.python.org/simple/werkzeug/), version: 0.9.6
+    Found link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.9.tar.gz#md5=c1700146d77252eb45be587b6b9db4ed (from https://pypi.python.org/simple/werkzeug/), version: 0.9
+  Ignoring link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.1.tar.gz#md5=28ae0702cd3af4f1c655e2f8273d8c9f (from https://pypi.python.org/simple/werkzeug/), version 0.1 doesn't match >=0.7
+  Ignoring link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.2.tar.gz#md5=4f045b31ea7495361d1193a60be46930 (from https://pypi.python.org/simple/werkzeug/), version 0.2 doesn't match >=0.7
+  Ignoring link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.3.1.tar.gz#md5=6119c0d9084cebc4103969616c9ac2ba (from https://pypi.python.org/simple/werkzeug/), version 0.3.1 doesn't match >=0.7
+  Ignoring link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.3.tar.gz#md5=ec66867dfa0f8f84dd694d06ced394c2 (from https://pypi.python.org/simple/werkzeug/), version 0.3 doesn't match >=0.7
+  Ignoring link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.4.1.tar.gz#md5=9bc096feb9fc43ea9f6c558b9c330c3e (from https://pypi.python.org/simple/werkzeug/), version 0.4.1 doesn't match >=0.7
+  Ignoring link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.4.tar.gz#md5=40483df016b2116450ec9ceb66acd700 (from https://pypi.python.org/simple/werkzeug/), version 0.4 doesn't match >=0.7
+  Ignoring link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.5.1.zip#md5=620955f34b8424c92674fe76d5c47679 (from https://pypi.python.org/simple/werkzeug/), version 0.5.1 doesn't match >=0.7
+  Ignoring link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.5.tar.gz#md5=d980e9c332a16db3538798aa303b1af5 (from https://pypi.python.org/simple/werkzeug/), version 0.5 doesn't match >=0.7
+  Ignoring link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.6.1.tar.gz#md5=f4d3e131b111c1f48aa1d1cb0b82531c (from https://pypi.python.org/simple/werkzeug/), version 0.6.1 doesn't match >=0.7
+  Ignoring link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.6.2.tar.gz#md5=519408350346a247333bb5d584371724 (from https://pypi.python.org/simple/werkzeug/), version 0.6.2 doesn't match >=0.7
+  Ignoring link https://pypi.python.org/packages/source/W/Werkzeug/Werkzeug-0.6.tar.gz#md5=b84236e8d9a012591f26fd211fa2c84e (from https://pypi.python.org/simple/werkzeug/), version 0.6 doesn't match >=0.7
+  Using version 0.11.5 (newest of versions: 0.11.5, 0.11.5, 0.11.4, 0.11.4, 0.11.3, 0.11.3, 0.11.2, 0.11.2, 0.11.1, 0.11.1, 0.11, 0.11, 0.10.4, 0.10.4, 0.10.2, 0.10.2, 0.10.1, 0.10, 0.9.6, 0.9.5, 0.9.4, 0.9.3, 0.9.2, 0.9.1, 0.9, 0.8.3, 0.8.2, 0.8.1, 0.8, 0.7.2, 0.7.1, 0.7)
+  Downloading from URL https://pypi.python.org/packages/2.7/W/Werkzeug/Werkzeug-0.11.5-py2.py3-none-any.whl#md5=7d5d6360f14e431de6fb10dfdece9e51 (from https://pypi.python.org/simple/werkzeug/)
+Downloading/unpacking Jinja2>=2.4 (from flask)
+  Getting page https://pypi.python.org/simple/Jinja2/
+  URLs to search for versions for Jinja2>=2.4 (from flask):
+  * https://pypi.python.org/simple/Jinja2/
+  Analyzing links from page https://pypi.python.org/simple/jinja2/
+    Skipping link https://pypi.python.org/packages/2.4/J/Jinja2/Jinja2-2.0rc1-py2.4-linux-i686.egg#md5=e4286023eed2f6d8cc5f5075106db1f4 (from https://pypi.python.org/simple/jinja2/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/J/Jinja2/Jinja2-2.0rc1-py2.4-linux-x86_64.egg#md5=3f0499f5f0caa7943d4ba3cb20740f5e (from https://pypi.python.org/simple/jinja2/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/J/Jinja2/Jinja2-2.0rc1-py2.4-macosx-10.3-i386.egg#md5=3b5901001e84aa62c8bc4c6f0a638b18 (from https://pypi.python.org/simple/jinja2/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/J/Jinja2/Jinja2-2.0rc1-py2.4-win32.egg#md5=6f17c620d4bc9272f3061b70ab7af11b (from https://pypi.python.org/simple/jinja2/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/J/Jinja2/Jinja2-2.1-py2.4-win32.egg#md5=d8eb08f4ef61b05a00039a48f620deeb (from https://pypi.python.org/simple/jinja2/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.4/J/Jinja2/Jinja2-2.1.1-py2.4-win32.egg#md5=ce0a82883624cd31c8b513b7bc961148 (from https://pypi.python.org/simple/jinja2/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/J/Jinja2/Jinja2-2.0rc1-py2.5-linux-i686.egg#md5=3a2be0c13c6036d59e81f9b3db82bdfa (from https://pypi.python.org/simple/jinja2/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/J/Jinja2/Jinja2-2.0rc1-py2.5-linux-x86_64.egg#md5=3ccf95d2d6245b5407cdda0577b24f64 (from https://pypi.python.org/simple/jinja2/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/J/Jinja2/Jinja2-2.0rc1-py2.5-macosx-10.3-i386.egg#md5=bc82f2a2e9b55ca1472bc7b89fedca06 (from https://pypi.python.org/simple/jinja2/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/J/Jinja2/Jinja2-2.0rc1-py2.5-win32.egg#md5=40af7fdc93abd3892b6ea2f208a6033b (from https://pypi.python.org/simple/jinja2/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/J/Jinja2/Jinja2-2.1-py2.5-win32.egg#md5=135dad62ce5de34a54d568a2b3cd05f0 (from https://pypi.python.org/simple/jinja2/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.5/J/Jinja2/Jinja2-2.1.1-py2.5-win32.egg#md5=a6cd9757966640a7bb7e887c24dd9ff3 (from https://pypi.python.org/simple/jinja2/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/J/Jinja2/Jinja2-2.1-py2.6-win32.egg#md5=8319235be842d5a61c552be8d206f65a (from https://pypi.python.org/simple/jinja2/); unknown archive format: .egg
+    Skipping link https://pypi.python.org/packages/2.6/J/Jinja2/Jinja2-2.1.1-py2.6-win32.egg#md5=8540a2bf5bfd263842d3a7c6df13977b (from https://pypi.python.org/simple/jinja2/); unknown archive format: .egg
+    Found link https://pypi.python.org/packages/2.7/J/Jinja2/Jinja2-2.8-py2.py3-none-any.whl#md5=75acb6f1abfc46ed75f4fd392f321ac2 (from https://pypi.python.org/simple/jinja2/), version: 2.8
+    Found link https://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.0.tar.gz#md5=19fe3ee10ee94a6003c53374112f2403 (from https://pypi.python.org/simple/jinja2/), version: 2.0
+    Found link https://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.0rc1.tar.gz#md5=7751e097f23fec244634e601d86e1d60 (from https://pypi.python.org/simple/jinja2/), version: 2.0rc1
+    Found link https://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.1.1.tar.gz#md5=b37fc262e4f613eec57c3defe6aea97c (from https://pypi.python.org/simple/jinja2/), version: 2.1.1
+    Found link https://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.1.tar.gz#md5=c7a31931c95a7ae5e1baf21074fdd576 (from https://pypi.python.org/simple/jinja2/), version: 2.1
+    Found link https://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.2.1.tar.gz#md5=fea849d68891218eb0b21c170f1c32d5 (from https://pypi.python.org/simple/jinja2/), version: 2.2.1
+    Found link https://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.2.tar.gz#md5=7ea7821801eee5def026c216d80e5103 (from https://pypi.python.org/simple/jinja2/), version: 2.2
+    Found link https://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.3.1.tar.gz#md5=391c7dd06c62dfe7e30ebaad7af0a401 (from https://pypi.python.org/simple/jinja2/), version: 2.3.1
+    Found link https://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.3.tar.gz#md5=7fc34b115f157474d988db8caab6895c (from https://pypi.python.org/simple/jinja2/), version: 2.3
+    Found link https://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.4.1.tar.gz#md5=e0cf5af057fac63ac9689b86c8b31ce6 (from https://pypi.python.org/simple/jinja2/), version: 2.4.1
+    Found link https://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.4.tar.gz#md5=635746009a6560e20db97e94db28867d (from https://pypi.python.org/simple/jinja2/), version: 2.4
+    Found link https://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.5.1.tar.gz#md5=12be091a5d2edae961b65adfc99da826 (from https://pypi.python.org/simple/jinja2/), version: 2.5.1
+    Found link https://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.5.2.tar.gz#md5=3829be2926a067ee024e6d3e5327dbf7 (from https://pypi.python.org/simple/jinja2/), version: 2.5.2
+    Found link https://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.5.3.tar.gz#md5=cae31ce405ec5e4f167913b25ee4f65a (from https://pypi.python.org/simple/jinja2/), version: 2.5.3
+    Found link https://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.5.4.tar.gz#md5=4553d5aef15d550bfebbc1903014067e (from https://pypi.python.org/simple/jinja2/), version: 2.5.4
+    Found link https://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.5.5.tar.gz#md5=83b20c1eeb31f49d8e6392efae91b7d5 (from https://pypi.python.org/simple/jinja2/), version: 2.5.5
+    Found link https://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.5.tar.gz#md5=d02f82e33afe918cef8a9abcd23ccd78 (from https://pypi.python.org/simple/jinja2/), version: 2.5
+    Found link https://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.6.tar.gz#md5=1c49a8825c993bfdcf55bb36897d28a2 (from https://pypi.python.org/simple/jinja2/), version: 2.6
+    Found link https://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.7.1.tar.gz#md5=282aed153e69f970d6e76f78ed9d027a (from https://pypi.python.org/simple/jinja2/), version: 2.7.1
+    Found link https://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.7.2.tar.gz#md5=df1581455564e97010e38bc792012aa5 (from https://pypi.python.org/simple/jinja2/), version: 2.7.2
+    Found link https://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.7.3.tar.gz#md5=b9dffd2f3b43d673802fe857c8445b1a (from https://pypi.python.org/simple/jinja2/), version: 2.7.3
+    Found link https://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.7.tar.gz#md5=c2fb12cbbb523c57d3d15bfe4dc0e8fe (from https://pypi.python.org/simple/jinja2/), version: 2.7
+    Found link https://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.8.tar.gz#md5=edb51693fe22c53cee5403775c71a99e (from https://pypi.python.org/simple/jinja2/), version: 2.8
+  Ignoring link https://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.0.tar.gz#md5=19fe3ee10ee94a6003c53374112f2403 (from https://pypi.python.org/simple/jinja2/), version 2.0 doesn't match >=2.4
+  Ignoring link https://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.0rc1.tar.gz#md5=7751e097f23fec244634e601d86e1d60 (from https://pypi.python.org/simple/jinja2/), version 2.0rc1 doesn't match >=2.4
+  Ignoring link https://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.1.1.tar.gz#md5=b37fc262e4f613eec57c3defe6aea97c (from https://pypi.python.org/simple/jinja2/), version 2.1.1 doesn't match >=2.4
+  Ignoring link https://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.1.tar.gz#md5=c7a31931c95a7ae5e1baf21074fdd576 (from https://pypi.python.org/simple/jinja2/), version 2.1 doesn't match >=2.4
+  Ignoring link https://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.2.1.tar.gz#md5=fea849d68891218eb0b21c170f1c32d5 (from https://pypi.python.org/simple/jinja2/), version 2.2.1 doesn't match >=2.4
+  Ignoring link https://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.2.tar.gz#md5=7ea7821801eee5def026c216d80e5103 (from https://pypi.python.org/simple/jinja2/), version 2.2 doesn't match >=2.4
+  Ignoring link https://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.3.1.tar.gz#md5=391c7dd06c62dfe7e30ebaad7af0a401 (from https://pypi.python.org/simple/jinja2/), version 2.3.1 doesn't match >=2.4
+  Ignoring link https://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.3.tar.gz#md5=7fc34b115f157474d988db8caab6895c (from https://pypi.python.org/simple/jinja2/), version 2.3 doesn't match >=2.4
+  Using version 2.8 (newest of versions: 2.8, 2.8, 2.7.3, 2.7.2, 2.7.1, 2.7, 2.6, 2.5.5, 2.5.4, 2.5.3, 2.5.2, 2.5.1, 2.5, 2.4.1, 2.4)
+  Downloading from URL https://pypi.python.org/packages/2.7/J/Jinja2/Jinja2-2.8-py2.py3-none-any.whl#md5=75acb6f1abfc46ed75f4fd392f321ac2 (from https://pypi.python.org/simple/jinja2/)
+Downloading/unpacking itsdangerous>=0.21 (from flask)
+  Getting page https://pypi.python.org/simple/itsdangerous/
+  URLs to search for versions for itsdangerous>=0.21 (from flask):
+  * https://pypi.python.org/simple/itsdangerous/
+  Analyzing links from page https://pypi.python.org/simple/itsdangerous/
+    Found link https://pypi.python.org/packages/source/i/itsdangerous/itsdangerous-0.10.tar.gz#md5=5ec216aac82761339a7599ef98b47914 (from https://pypi.python.org/simple/itsdangerous/), version: 0.10
+    Found link https://pypi.python.org/packages/source/i/itsdangerous/itsdangerous-0.11.tar.gz#md5=2bd23801f051c344bc5f06e673b8d1e0 (from https://pypi.python.org/simple/itsdangerous/), version: 0.11
+    Found link https://pypi.python.org/packages/source/i/itsdangerous/itsdangerous-0.12.tar.gz#md5=a83dbd4f42d284d497c0bc247ac04509 (from https://pypi.python.org/simple/itsdangerous/), version: 0.12
+    Found link https://pypi.python.org/packages/source/i/itsdangerous/itsdangerous-0.13.tar.gz#md5=d13b58d1ee2ef9e1f95d9133e7ecb4bf (from https://pypi.python.org/simple/itsdangerous/), version: 0.13
+    Found link https://pypi.python.org/packages/source/i/itsdangerous/itsdangerous-0.14.tar.gz#md5=128e0a26a75e6640350749162697ffa3 (from https://pypi.python.org/simple/itsdangerous/), version: 0.14
+    Found link https://pypi.python.org/packages/source/i/itsdangerous/itsdangerous-0.15.tar.gz#md5=f4125355528979570ec4ef18a64d000d (from https://pypi.python.org/simple/itsdangerous/), version: 0.15
+    Found link https://pypi.python.org/packages/source/i/itsdangerous/itsdangerous-0.16.tar.gz#md5=42f9a6d1c6727c6221207d96c9621b76 (from https://pypi.python.org/simple/itsdangerous/), version: 0.16
+    Found link https://pypi.python.org/packages/source/i/itsdangerous/itsdangerous-0.17.tar.gz#md5=f40c7dc39beb859988b0a801d13672aa (from https://pypi.python.org/simple/itsdangerous/), version: 0.17
+    Found link https://pypi.python.org/packages/source/i/itsdangerous/itsdangerous-0.18.tar.gz#md5=2549de4c366cd48ab0f9d32f363833e8 (from https://pypi.python.org/simple/itsdangerous/), version: 0.18
+    Found link https://pypi.python.org/packages/source/i/itsdangerous/itsdangerous-0.19.tar.gz#md5=0eb918080911b0829e1df36a513b48d5 (from https://pypi.python.org/simple/itsdangerous/), version: 0.19
+    Found link https://pypi.python.org/packages/source/i/itsdangerous/itsdangerous-0.20.tar.gz#md5=adb4f7e4dd5f717341384837ca058c9c (from https://pypi.python.org/simple/itsdangerous/), version: 0.20
+    Found link https://pypi.python.org/packages/source/i/itsdangerous/itsdangerous-0.21.tar.gz#md5=84d4b33f0a1e4d0f7f8f8755a5eb2580 (from https://pypi.python.org/simple/itsdangerous/), version: 0.21
+    Found link https://pypi.python.org/packages/source/i/itsdangerous/itsdangerous-0.22.tar.gz#md5=ba715357eadfb045ca06e11869366bfd (from https://pypi.python.org/simple/itsdangerous/), version: 0.22
+    Found link https://pypi.python.org/packages/source/i/itsdangerous/itsdangerous-0.23.tar.gz#md5=985e726eb76f18aca81e703f0a6c6efc (from https://pypi.python.org/simple/itsdangerous/), version: 0.23
+    Found link https://pypi.python.org/packages/source/i/itsdangerous/itsdangerous-0.24.tar.gz#md5=a3d55aa79369aef5345c036a8a26307f (from https://pypi.python.org/simple/itsdangerous/), version: 0.24
+    Found link https://pypi.python.org/packages/source/i/itsdangerous/itsdangerous-0.9.1.tar.gz#md5=906506f36c4332059ba37b874da88d48 (from https://pypi.python.org/simple/itsdangerous/), version: 0.9.1
+    Found link https://pypi.python.org/packages/source/i/itsdangerous/itsdangerous-0.9.tar.gz#md5=36e0a40eb98e3b48fa37039617d1cd2b (from https://pypi.python.org/simple/itsdangerous/), version: 0.9
+  Ignoring link https://pypi.python.org/packages/source/i/itsdangerous/itsdangerous-0.10.tar.gz#md5=5ec216aac82761339a7599ef98b47914 (from https://pypi.python.org/simple/itsdangerous/), version 0.10 doesn't match >=0.21
+  Ignoring link https://pypi.python.org/packages/source/i/itsdangerous/itsdangerous-0.11.tar.gz#md5=2bd23801f051c344bc5f06e673b8d1e0 (from https://pypi.python.org/simple/itsdangerous/), version 0.11 doesn't match >=0.21
+  Ignoring link https://pypi.python.org/packages/source/i/itsdangerous/itsdangerous-0.12.tar.gz#md5=a83dbd4f42d284d497c0bc247ac04509 (from https://pypi.python.org/simple/itsdangerous/), version 0.12 doesn't match >=0.21
+  Ignoring link https://pypi.python.org/packages/source/i/itsdangerous/itsdangerous-0.13.tar.gz#md5=d13b58d1ee2ef9e1f95d9133e7ecb4bf (from https://pypi.python.org/simple/itsdangerous/), version 0.13 doesn't match >=0.21
+  Ignoring link https://pypi.python.org/packages/source/i/itsdangerous/itsdangerous-0.14.tar.gz#md5=128e0a26a75e6640350749162697ffa3 (from https://pypi.python.org/simple/itsdangerous/), version 0.14 doesn't match >=0.21
+  Ignoring link https://pypi.python.org/packages/source/i/itsdangerous/itsdangerous-0.15.tar.gz#md5=f4125355528979570ec4ef18a64d000d (from https://pypi.python.org/simple/itsdangerous/), version 0.15 doesn't match >=0.21
+  Ignoring link https://pypi.python.org/packages/source/i/itsdangerous/itsdangerous-0.16.tar.gz#md5=42f9a6d1c6727c6221207d96c9621b76 (from https://pypi.python.org/simple/itsdangerous/), version 0.16 doesn't match >=0.21
+  Ignoring link https://pypi.python.org/packages/source/i/itsdangerous/itsdangerous-0.17.tar.gz#md5=f40c7dc39beb859988b0a801d13672aa (from https://pypi.python.org/simple/itsdangerous/), version 0.17 doesn't match >=0.21
+  Ignoring link https://pypi.python.org/packages/source/i/itsdangerous/itsdangerous-0.18.tar.gz#md5=2549de4c366cd48ab0f9d32f363833e8 (from https://pypi.python.org/simple/itsdangerous/), version 0.18 doesn't match >=0.21
+  Ignoring link https://pypi.python.org/packages/source/i/itsdangerous/itsdangerous-0.19.tar.gz#md5=0eb918080911b0829e1df36a513b48d5 (from https://pypi.python.org/simple/itsdangerous/), version 0.19 doesn't match >=0.21
+  Ignoring link https://pypi.python.org/packages/source/i/itsdangerous/itsdangerous-0.20.tar.gz#md5=adb4f7e4dd5f717341384837ca058c9c (from https://pypi.python.org/simple/itsdangerous/), version 0.20 doesn't match >=0.21
+  Ignoring link https://pypi.python.org/packages/source/i/itsdangerous/itsdangerous-0.9.1.tar.gz#md5=906506f36c4332059ba37b874da88d48 (from https://pypi.python.org/simple/itsdangerous/), version 0.9.1 doesn't match >=0.21
+  Ignoring link https://pypi.python.org/packages/source/i/itsdangerous/itsdangerous-0.9.tar.gz#md5=36e0a40eb98e3b48fa37039617d1cd2b (from https://pypi.python.org/simple/itsdangerous/), version 0.9 doesn't match >=0.21
+  Using version 0.24 (newest of versions: 0.24, 0.23, 0.22, 0.21)
+  Downloading from URL https://pypi.python.org/packages/source/i/itsdangerous/itsdangerous-0.24.tar.gz#md5=a3d55aa79369aef5345c036a8a26307f (from https://pypi.python.org/simple/itsdangerous/)
+  Running setup.py (path:/tmp/pip_build_nitrous/itsdangerous/setup.py) egg_info for package itsdangerous
+    running egg_info
+    creating pip-egg-info/itsdangerous.egg-info
+    writing pip-egg-info/itsdangerous.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/itsdangerous.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/itsdangerous.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/itsdangerous.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'pip-egg-info/itsdangerous.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    warning: no previously-included files matching '*' found under directory 'docs/_build'
+    writing manifest file 'pip-egg-info/itsdangerous.egg-info/SOURCES.txt'
+  Source in /tmp/pip_build_nitrous/itsdangerous has version 0.24, which satisfies requirement itsdangerous>=0.21 (from flask)
+Downloading/unpacking MarkupSafe (from Jinja2>=2.4->flask)
+  Getting page https://pypi.python.org/simple/MarkupSafe/
+  URLs to search for versions for MarkupSafe (from Jinja2>=2.4->flask):
+  * https://pypi.python.org/simple/MarkupSafe/
+  Analyzing links from page https://pypi.python.org/simple/markupsafe/
+    Found link https://pypi.python.org/packages/source/M/MarkupSafe/MarkupSafe-0.11.tar.gz#md5=48d445941c16d6aa55caf8e148fc0911 (from https://pypi.python.org/simple/markupsafe/), version: 0.11
+    Found link https://pypi.python.org/packages/source/M/MarkupSafe/MarkupSafe-0.12.tar.gz#md5=edd4b6950f6d4ddc6e23fa322f8f0f53 (from https://pypi.python.org/simple/markupsafe/), version: 0.12
+    Found link https://pypi.python.org/packages/source/M/MarkupSafe/MarkupSafe-0.13.tar.gz#md5=f44b8f4bba98b3e66884158f97585829 (from https://pypi.python.org/simple/markupsafe/), version: 0.13
+    Found link https://pypi.python.org/packages/source/M/MarkupSafe/MarkupSafe-0.14.tar.gz#md5=68c6ea6df002649218d24cf490a8ca82 (from https://pypi.python.org/simple/markupsafe/), version: 0.14
+    Found link https://pypi.python.org/packages/source/M/MarkupSafe/MarkupSafe-0.15.tar.gz#md5=4e7c4d965fe5e033fa2d7bb7746bb186 (from https://pypi.python.org/simple/markupsafe/), version: 0.15
+    Found link https://pypi.python.org/packages/source/M/MarkupSafe/MarkupSafe-0.16.tar.gz#md5=fe88012f7fe75252efd26cd25a100851 (from https://pypi.python.org/simple/markupsafe/), version: 0.16
+    Found link https://pypi.python.org/packages/source/M/MarkupSafe/MarkupSafe-0.17.tar.gz#md5=61d5edc130e3242cfaff9fd9fdefde8f (from https://pypi.python.org/simple/markupsafe/), version: 0.17
+    Found link https://pypi.python.org/packages/source/M/MarkupSafe/MarkupSafe-0.18.tar.gz#md5=f8d252fd05371e51dec2fe9a36890687 (from https://pypi.python.org/simple/markupsafe/), version: 0.18
+    Found link https://pypi.python.org/packages/source/M/MarkupSafe/MarkupSafe-0.19.tar.gz#md5=ccb3f746c807c5500850987006854a6d (from https://pypi.python.org/simple/markupsafe/), version: 0.19
+    Found link https://pypi.python.org/packages/source/M/MarkupSafe/MarkupSafe-0.20.tar.gz#md5=7da066d9cb191a70aa85d0a3d43565d1 (from https://pypi.python.org/simple/markupsafe/), version: 0.20
+    Found link https://pypi.python.org/packages/source/M/MarkupSafe/MarkupSafe-0.21.tar.gz#md5=fde838d9337fa51744283f46a1db2e74 (from https://pypi.python.org/simple/markupsafe/), version: 0.21
+    Found link https://pypi.python.org/packages/source/M/MarkupSafe/MarkupSafe-0.22.tar.gz#md5=cb3ec29fd5361add24cfd0c6e2953b3e (from https://pypi.python.org/simple/markupsafe/), version: 0.22
+    Found link https://pypi.python.org/packages/source/M/MarkupSafe/MarkupSafe-0.23.tar.gz#md5=f5ab3deee4c37cd6a922fb81e730da6e (from https://pypi.python.org/simple/markupsafe/), version: 0.23
+    Found link https://pypi.python.org/packages/source/M/MarkupSafe/MarkupSafe-0.9.1.tar.gz#md5=7f469f664b565b440f099997255e6d3c (from https://pypi.python.org/simple/markupsafe/), version: 0.9.1
+    Found link https://pypi.python.org/packages/source/M/MarkupSafe/MarkupSafe-0.9.2.tar.gz#md5=69b72d1afdd9e808f9c1ef65f819c7a6 (from https://pypi.python.org/simple/markupsafe/), version: 0.9.2
+    Found link https://pypi.python.org/packages/source/M/MarkupSafe/MarkupSafe-0.9.3.tar.gz#md5=99dccbeb83302f6b593d382098b3b43a (from https://pypi.python.org/simple/markupsafe/), version: 0.9.3
+    Found link https://pypi.python.org/packages/source/M/MarkupSafe/MarkupSafe-0.9.tar.gz#md5=10a7c6bf81f91f280ba9e76e32e01c94 (from https://pypi.python.org/simple/markupsafe/), version: 0.9
+  Using version 0.23 (newest of versions: 0.23, 0.22, 0.21, 0.20, 0.19, 0.18, 0.17, 0.16, 0.15, 0.14, 0.13, 0.12, 0.11, 0.9.3, 0.9.2, 0.9.1, 0.9)
+  Downloading MarkupSafe-0.23.tar.gz
+  Downloading from URL https://pypi.python.org/packages/source/M/MarkupSafe/MarkupSafe-0.23.tar.gz#md5=f5ab3deee4c37cd6a922fb81e730da6e (from https://pypi.python.org/simple/markupsafe/)
+  Running setup.py (path:/tmp/pip_build_nitrous/MarkupSafe/setup.py) egg_info for package MarkupSafe
+    running egg_info
+    creating pip-egg-info/MarkupSafe.egg-info
+    writing pip-egg-info/MarkupSafe.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/MarkupSafe.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/MarkupSafe.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/MarkupSafe.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'pip-egg-info/MarkupSafe.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'pip-egg-info/MarkupSafe.egg-info/SOURCES.txt'
+  Source in /tmp/pip_build_nitrous/MarkupSafe has version 0.23, which satisfies requirement MarkupSafe (from Jinja2>=2.4->flask)
+Installing collected packages: flask, Werkzeug, Jinja2, itsdangerous, MarkupSafe
+  Running setup.py install for flask
+    Running command /usr/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip_build_nitrous/flask/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-TXRnup-record/install-record.txt --single-version-externally-managed --compile
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib.linux-x86_64-2.7
+    creating build/lib.linux-x86_64-2.7/flask
+    copying flask/views.py -> build/lib.linux-x86_64-2.7/flask
+    copying flask/wrappers.py -> build/lib.linux-x86_64-2.7/flask
+    copying flask/config.py -> build/lib.linux-x86_64-2.7/flask
+    copying flask/json.py -> build/lib.linux-x86_64-2.7/flask
+    copying flask/testing.py -> build/lib.linux-x86_64-2.7/flask
+    copying flask/sessions.py -> build/lib.linux-x86_64-2.7/flask
+    copying flask/templating.py -> build/lib.linux-x86_64-2.7/flask
+    copying flask/module.py -> build/lib.linux-x86_64-2.7/flask
+    copying flask/exthook.py -> build/lib.linux-x86_64-2.7/flask
+    copying flask/globals.py -> build/lib.linux-x86_64-2.7/flask
+    copying flask/signals.py -> build/lib.linux-x86_64-2.7/flask
+    copying flask/debughelpers.py -> build/lib.linux-x86_64-2.7/flask
+    copying flask/logging.py -> build/lib.linux-x86_64-2.7/flask
+    copying flask/_compat.py -> build/lib.linux-x86_64-2.7/flask
+    copying flask/blueprints.py -> build/lib.linux-x86_64-2.7/flask
+    copying flask/app.py -> build/lib.linux-x86_64-2.7/flask
+    copying flask/ctx.py -> build/lib.linux-x86_64-2.7/flask
+    copying flask/__init__.py -> build/lib.linux-x86_64-2.7/flask
+    copying flask/helpers.py -> build/lib.linux-x86_64-2.7/flask
+    creating build/lib.linux-x86_64-2.7/flask/ext
+    copying flask/ext/__init__.py -> build/lib.linux-x86_64-2.7/flask/ext
+    creating build/lib.linux-x86_64-2.7/flask/testsuite
+    copying flask/testsuite/views.py -> build/lib.linux-x86_64-2.7/flask/testsuite
+    copying flask/testsuite/config.py -> build/lib.linux-x86_64-2.7/flask/testsuite
+    copying flask/testsuite/regression.py -> build/lib.linux-x86_64-2.7/flask/testsuite
+    copying flask/testsuite/appctx.py -> build/lib.linux-x86_64-2.7/flask/testsuite
+    copying flask/testsuite/testing.py -> build/lib.linux-x86_64-2.7/flask/testsuite
+    copying flask/testsuite/reqctx.py -> build/lib.linux-x86_64-2.7/flask/testsuite
+    copying flask/testsuite/templating.py -> build/lib.linux-x86_64-2.7/flask/testsuite
+    copying flask/testsuite/signals.py -> build/lib.linux-x86_64-2.7/flask/testsuite
+    copying flask/testsuite/blueprints.py -> build/lib.linux-x86_64-2.7/flask/testsuite
+    copying flask/testsuite/examples.py -> build/lib.linux-x86_64-2.7/flask/testsuite
+    copying flask/testsuite/subclassing.py -> build/lib.linux-x86_64-2.7/flask/testsuite
+    copying flask/testsuite/basic.py -> build/lib.linux-x86_64-2.7/flask/testsuite
+    copying flask/testsuite/ext.py -> build/lib.linux-x86_64-2.7/flask/testsuite
+    copying flask/testsuite/__init__.py -> build/lib.linux-x86_64-2.7/flask/testsuite
+    copying flask/testsuite/deprecations.py -> build/lib.linux-x86_64-2.7/flask/testsuite
+    copying flask/testsuite/helpers.py -> build/lib.linux-x86_64-2.7/flask/testsuite
+    running egg_info
+    writing requirements to Flask.egg-info/requires.txt
+    writing Flask.egg-info/PKG-INFO
+    writing top-level names to Flask.egg-info/top_level.txt
+    writing dependency_links to Flask.egg-info/dependency_links.txt
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'Flask.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    warning: no files found matching '*' under directory 'tests'
+    warning: no previously-included files matching '*.pyc' found under directory 'docs'
+    warning: no previously-included files matching '*.pyo' found under directory 'docs'
+    warning: no previously-included files matching '*.pyc' found under directory 'tests'
+    warning: no previously-included files matching '*.pyo' found under directory 'tests'
+    warning: no previously-included files matching '*.pyc' found under directory 'examples'
+    warning: no previously-included files matching '*.pyo' found under directory 'examples'
+    no previously-included directories found matching 'docs/_build'
+    no previously-included directories found matching 'docs/_themes/.git'
+    writing manifest file 'Flask.egg-info/SOURCES.txt'
+    creating build/lib.linux-x86_64-2.7/flask/testsuite/static
+    copying flask/testsuite/static/index.html -> build/lib.linux-x86_64-2.7/flask/testsuite/static
+    creating build/lib.linux-x86_64-2.7/flask/testsuite/templates
+    copying flask/testsuite/templates/_macro.html -> build/lib.linux-x86_64-2.7/flask/testsuite/templates
+    copying flask/testsuite/templates/context_template.html -> build/lib.linux-x86_64-2.7/flask/testsuite/templates
+    copying flask/testsuite/templates/escaping_template.html -> build/lib.linux-x86_64-2.7/flask/testsuite/templates
+    copying flask/testsuite/templates/mail.txt -> build/lib.linux-x86_64-2.7/flask/testsuite/templates
+    copying flask/testsuite/templates/simple_template.html -> build/lib.linux-x86_64-2.7/flask/testsuite/templates
+    copying flask/testsuite/templates/template_filter.html -> build/lib.linux-x86_64-2.7/flask/testsuite/templates
+    copying flask/testsuite/templates/template_test.html -> build/lib.linux-x86_64-2.7/flask/testsuite/templates
+    creating build/lib.linux-x86_64-2.7/flask/testsuite/templates/nested
+    copying flask/testsuite/templates/nested/nested.txt -> build/lib.linux-x86_64-2.7/flask/testsuite/templates/nested
+    creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps
+    copying flask/testsuite/test_apps/config_module_app.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps
+    copying flask/testsuite/test_apps/flask_newext_simple.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps
+    copying flask/testsuite/test_apps/importerror.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps
+    copying flask/testsuite/test_apps/main_app.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps
+    creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/blueprintapp
+    copying flask/testsuite/test_apps/blueprintapp/__init__.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/blueprintapp
+    creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/blueprintapp/apps
+    copying flask/testsuite/test_apps/blueprintapp/apps/__init__.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/blueprintapp/apps
+    creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/blueprintapp/apps/admin
+    copying flask/testsuite/test_apps/blueprintapp/apps/admin/__init__.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/blueprintapp/apps/admin
+    creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/blueprintapp/apps/admin/static
+    copying flask/testsuite/test_apps/blueprintapp/apps/admin/static/test.txt -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/blueprintapp/apps/admin/static
+    creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/blueprintapp/apps/admin/static/css
+    copying flask/testsuite/test_apps/blueprintapp/apps/admin/static/css/test.css -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/blueprintapp/apps/admin/static/css
+    creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/blueprintapp/apps/admin/templates
+    creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/blueprintapp/apps/admin/templates/admin
+    copying flask/testsuite/test_apps/blueprintapp/apps/admin/templates/admin/index.html -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/blueprintapp/apps/admin/templates/admin
+    creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/blueprintapp/apps/frontend
+    copying flask/testsuite/test_apps/blueprintapp/apps/frontend/__init__.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/blueprintapp/apps/frontend
+    creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/blueprintapp/apps/frontend/templates
+    creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/blueprintapp/apps/frontend/templates/frontend
+    copying flask/testsuite/test_apps/blueprintapp/apps/frontend/templates/frontend/index.html -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/blueprintapp/apps/frontend/templates/frontend
+    creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/config_package_app
+    copying flask/testsuite/test_apps/config_package_app/__init__.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/config_package_app
+    creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/flask_broken
+    copying flask/testsuite/test_apps/flask_broken/__init__.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/flask_broken
+    copying flask/testsuite/test_apps/flask_broken/b.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/flask_broken
+    creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/flask_newext_package
+    copying flask/testsuite/test_apps/flask_newext_package/__init__.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/flask_newext_package
+    copying flask/testsuite/test_apps/flask_newext_package/submodule.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/flask_newext_package
+    creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/flaskext
+    copying flask/testsuite/test_apps/flaskext/__init__.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/flaskext
+    copying flask/testsuite/test_apps/flaskext/oldext_simple.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/flaskext
+    creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/flaskext/oldext_package
+    copying flask/testsuite/test_apps/flaskext/oldext_package/__init__.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/flaskext/oldext_package
+    copying flask/testsuite/test_apps/flaskext/oldext_package/submodule.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/flaskext/oldext_package
+    creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/lib
+    creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/lib/python2.5
+    creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/lib/python2.5/site-packages
+    copying flask/testsuite/test_apps/lib/python2.5/site-packages/SiteEgg.egg -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/lib/python2.5/site-packages
+    copying flask/testsuite/test_apps/lib/python2.5/site-packages/site_app.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/lib/python2.5/site-packages
+    creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/lib/python2.5/site-packages/site_package
+    copying flask/testsuite/test_apps/lib/python2.5/site-packages/site_package/__init__.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/lib/python2.5/site-packages/site_package
+    creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/moduleapp
+    copying flask/testsuite/test_apps/moduleapp/__init__.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/moduleapp
+    creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/moduleapp/apps
+    copying flask/testsuite/test_apps/moduleapp/apps/__init__.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/moduleapp/apps
+    creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/moduleapp/apps/admin
+    copying flask/testsuite/test_apps/moduleapp/apps/admin/__init__.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/moduleapp/apps/admin
+    creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/moduleapp/apps/admin/static
+    copying flask/testsuite/test_apps/moduleapp/apps/admin/static/test.txt -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/moduleapp/apps/admin/static
+    creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/moduleapp/apps/admin/static/css
+    copying flask/testsuite/test_apps/moduleapp/apps/admin/static/css/test.css -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/moduleapp/apps/admin/static/css
+    creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/moduleapp/apps/admin/templates
+    copying flask/testsuite/test_apps/moduleapp/apps/admin/templates/index.html -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/moduleapp/apps/admin/templates
+    creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/moduleapp/apps/frontend
+    copying flask/testsuite/test_apps/moduleapp/apps/frontend/__init__.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/moduleapp/apps/frontend
+    creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/moduleapp/apps/frontend/templates
+    copying flask/testsuite/test_apps/moduleapp/apps/frontend/templates/index.html -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/moduleapp/apps/frontend/templates
+    creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/path
+    creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/path/installed_package
+    copying flask/testsuite/test_apps/path/installed_package/__init__.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/path/installed_package
+    creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/subdomaintestmodule
+    copying flask/testsuite/test_apps/subdomaintestmodule/__init__.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/subdomaintestmodule
+    creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/subdomaintestmodule/static
+    copying flask/testsuite/test_apps/subdomaintestmodule/static/hello.txt -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/subdomaintestmodule/static
+    running install_lib
+    creating /usr/local/lib/python2.7/dist-packages/flask
+    error: could not create '/usr/local/lib/python2.7/dist-packages/flask': Permission denied
+    Complete output from command /usr/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip_build_nitrous/flask/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-TXRnup-record/install-record.txt --single-version-externally-managed --compile:
+    running install
+
+running build
+
+running build_py
+
+creating build
+
+creating build/lib.linux-x86_64-2.7
+
+creating build/lib.linux-x86_64-2.7/flask
+
+copying flask/views.py -> build/lib.linux-x86_64-2.7/flask
+
+copying flask/wrappers.py -> build/lib.linux-x86_64-2.7/flask
+
+copying flask/config.py -> build/lib.linux-x86_64-2.7/flask
+
+copying flask/json.py -> build/lib.linux-x86_64-2.7/flask
+
+copying flask/testing.py -> build/lib.linux-x86_64-2.7/flask
+
+copying flask/sessions.py -> build/lib.linux-x86_64-2.7/flask
+
+copying flask/templating.py -> build/lib.linux-x86_64-2.7/flask
+
+copying flask/module.py -> build/lib.linux-x86_64-2.7/flask
+
+copying flask/exthook.py -> build/lib.linux-x86_64-2.7/flask
+
+copying flask/globals.py -> build/lib.linux-x86_64-2.7/flask
+
+copying flask/signals.py -> build/lib.linux-x86_64-2.7/flask
+
+copying flask/debughelpers.py -> build/lib.linux-x86_64-2.7/flask
+
+copying flask/logging.py -> build/lib.linux-x86_64-2.7/flask
+
+copying flask/_compat.py -> build/lib.linux-x86_64-2.7/flask
+
+copying flask/blueprints.py -> build/lib.linux-x86_64-2.7/flask
+
+copying flask/app.py -> build/lib.linux-x86_64-2.7/flask
+
+copying flask/ctx.py -> build/lib.linux-x86_64-2.7/flask
+
+copying flask/__init__.py -> build/lib.linux-x86_64-2.7/flask
+
+copying flask/helpers.py -> build/lib.linux-x86_64-2.7/flask
+
+creating build/lib.linux-x86_64-2.7/flask/ext
+
+copying flask/ext/__init__.py -> build/lib.linux-x86_64-2.7/flask/ext
+
+creating build/lib.linux-x86_64-2.7/flask/testsuite
+
+copying flask/testsuite/views.py -> build/lib.linux-x86_64-2.7/flask/testsuite
+
+copying flask/testsuite/config.py -> build/lib.linux-x86_64-2.7/flask/testsuite
+
+copying flask/testsuite/regression.py -> build/lib.linux-x86_64-2.7/flask/testsuite
+
+copying flask/testsuite/appctx.py -> build/lib.linux-x86_64-2.7/flask/testsuite
+
+copying flask/testsuite/testing.py -> build/lib.linux-x86_64-2.7/flask/testsuite
+
+copying flask/testsuite/reqctx.py -> build/lib.linux-x86_64-2.7/flask/testsuite
+
+copying flask/testsuite/templating.py -> build/lib.linux-x86_64-2.7/flask/testsuite
+
+copying flask/testsuite/signals.py -> build/lib.linux-x86_64-2.7/flask/testsuite
+
+copying flask/testsuite/blueprints.py -> build/lib.linux-x86_64-2.7/flask/testsuite
+
+copying flask/testsuite/examples.py -> build/lib.linux-x86_64-2.7/flask/testsuite
+
+copying flask/testsuite/subclassing.py -> build/lib.linux-x86_64-2.7/flask/testsuite
+
+copying flask/testsuite/basic.py -> build/lib.linux-x86_64-2.7/flask/testsuite
+
+copying flask/testsuite/ext.py -> build/lib.linux-x86_64-2.7/flask/testsuite
+
+copying flask/testsuite/__init__.py -> build/lib.linux-x86_64-2.7/flask/testsuite
+
+copying flask/testsuite/deprecations.py -> build/lib.linux-x86_64-2.7/flask/testsuite
+
+copying flask/testsuite/helpers.py -> build/lib.linux-x86_64-2.7/flask/testsuite
+
+running egg_info
+
+writing requirements to Flask.egg-info/requires.txt
+
+writing Flask.egg-info/PKG-INFO
+
+writing top-level names to Flask.egg-info/top_level.txt
+
+writing dependency_links to Flask.egg-info/dependency_links.txt
+
+warning: manifest_maker: standard file '-c' not found
+
+
+
+reading manifest file 'Flask.egg-info/SOURCES.txt'
+
+reading manifest template 'MANIFEST.in'
+
+warning: no files found matching '*' under directory 'tests'
+
+warning: no previously-included files matching '*.pyc' found under directory 'docs'
+
+warning: no previously-included files matching '*.pyo' found under directory 'docs'
+
+warning: no previously-included files matching '*.pyc' found under directory 'tests'
+
+warning: no previously-included files matching '*.pyo' found under directory 'tests'
+
+warning: no previously-included files matching '*.pyc' found under directory 'examples'
+
+warning: no previously-included files matching '*.pyo' found under directory 'examples'
+
+no previously-included directories found matching 'docs/_build'
+
+no previously-included directories found matching 'docs/_themes/.git'
+
+writing manifest file 'Flask.egg-info/SOURCES.txt'
+
+creating build/lib.linux-x86_64-2.7/flask/testsuite/static
+
+copying flask/testsuite/static/index.html -> build/lib.linux-x86_64-2.7/flask/testsuite/static
+
+creating build/lib.linux-x86_64-2.7/flask/testsuite/templates
+
+copying flask/testsuite/templates/_macro.html -> build/lib.linux-x86_64-2.7/flask/testsuite/templates
+
+copying flask/testsuite/templates/context_template.html -> build/lib.linux-x86_64-2.7/flask/testsuite/templates
+
+copying flask/testsuite/templates/escaping_template.html -> build/lib.linux-x86_64-2.7/flask/testsuite/templates
+
+copying flask/testsuite/templates/mail.txt -> build/lib.linux-x86_64-2.7/flask/testsuite/templates
+
+copying flask/testsuite/templates/simple_template.html -> build/lib.linux-x86_64-2.7/flask/testsuite/templates
+
+copying flask/testsuite/templates/template_filter.html -> build/lib.linux-x86_64-2.7/flask/testsuite/templates
+
+copying flask/testsuite/templates/template_test.html -> build/lib.linux-x86_64-2.7/flask/testsuite/templates
+
+creating build/lib.linux-x86_64-2.7/flask/testsuite/templates/nested
+
+copying flask/testsuite/templates/nested/nested.txt -> build/lib.linux-x86_64-2.7/flask/testsuite/templates/nested
+
+creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps
+
+copying flask/testsuite/test_apps/config_module_app.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps
+
+copying flask/testsuite/test_apps/flask_newext_simple.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps
+
+copying flask/testsuite/test_apps/importerror.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps
+
+copying flask/testsuite/test_apps/main_app.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps
+
+creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/blueprintapp
+
+copying flask/testsuite/test_apps/blueprintapp/__init__.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/blueprintapp
+
+creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/blueprintapp/apps
+
+copying flask/testsuite/test_apps/blueprintapp/apps/__init__.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/blueprintapp/apps
+
+creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/blueprintapp/apps/admin
+
+copying flask/testsuite/test_apps/blueprintapp/apps/admin/__init__.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/blueprintapp/apps/admin
+
+creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/blueprintapp/apps/admin/static
+
+copying flask/testsuite/test_apps/blueprintapp/apps/admin/static/test.txt -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/blueprintapp/apps/admin/static
+
+creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/blueprintapp/apps/admin/static/css
+
+copying flask/testsuite/test_apps/blueprintapp/apps/admin/static/css/test.css -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/blueprintapp/apps/admin/static/css
+
+creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/blueprintapp/apps/admin/templates
+
+creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/blueprintapp/apps/admin/templates/admin
+
+copying flask/testsuite/test_apps/blueprintapp/apps/admin/templates/admin/index.html -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/blueprintapp/apps/admin/templates/admin
+
+creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/blueprintapp/apps/frontend
+
+copying flask/testsuite/test_apps/blueprintapp/apps/frontend/__init__.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/blueprintapp/apps/frontend
+
+creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/blueprintapp/apps/frontend/templates
+
+creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/blueprintapp/apps/frontend/templates/frontend
+
+copying flask/testsuite/test_apps/blueprintapp/apps/frontend/templates/frontend/index.html -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/blueprintapp/apps/frontend/templates/frontend
+
+creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/config_package_app
+
+copying flask/testsuite/test_apps/config_package_app/__init__.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/config_package_app
+
+creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/flask_broken
+
+copying flask/testsuite/test_apps/flask_broken/__init__.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/flask_broken
+
+copying flask/testsuite/test_apps/flask_broken/b.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/flask_broken
+
+creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/flask_newext_package
+
+copying flask/testsuite/test_apps/flask_newext_package/__init__.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/flask_newext_package
+
+copying flask/testsuite/test_apps/flask_newext_package/submodule.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/flask_newext_package
+
+creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/flaskext
+
+copying flask/testsuite/test_apps/flaskext/__init__.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/flaskext
+
+copying flask/testsuite/test_apps/flaskext/oldext_simple.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/flaskext
+
+creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/flaskext/oldext_package
+
+copying flask/testsuite/test_apps/flaskext/oldext_package/__init__.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/flaskext/oldext_package
+
+copying flask/testsuite/test_apps/flaskext/oldext_package/submodule.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/flaskext/oldext_package
+
+creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/lib
+
+creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/lib/python2.5
+
+creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/lib/python2.5/site-packages
+
+copying flask/testsuite/test_apps/lib/python2.5/site-packages/SiteEgg.egg -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/lib/python2.5/site-packages
+
+copying flask/testsuite/test_apps/lib/python2.5/site-packages/site_app.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/lib/python2.5/site-packages
+
+creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/lib/python2.5/site-packages/site_package
+
+copying flask/testsuite/test_apps/lib/python2.5/site-packages/site_package/__init__.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/lib/python2.5/site-packages/site_package
+
+creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/moduleapp
+
+copying flask/testsuite/test_apps/moduleapp/__init__.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/moduleapp
+
+creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/moduleapp/apps
+
+copying flask/testsuite/test_apps/moduleapp/apps/__init__.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/moduleapp/apps
+
+creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/moduleapp/apps/admin
+
+copying flask/testsuite/test_apps/moduleapp/apps/admin/__init__.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/moduleapp/apps/admin
+
+creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/moduleapp/apps/admin/static
+
+copying flask/testsuite/test_apps/moduleapp/apps/admin/static/test.txt -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/moduleapp/apps/admin/static
+
+creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/moduleapp/apps/admin/static/css
+
+copying flask/testsuite/test_apps/moduleapp/apps/admin/static/css/test.css -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/moduleapp/apps/admin/static/css
+
+creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/moduleapp/apps/admin/templates
+
+copying flask/testsuite/test_apps/moduleapp/apps/admin/templates/index.html -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/moduleapp/apps/admin/templates
+
+creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/moduleapp/apps/frontend
+
+copying flask/testsuite/test_apps/moduleapp/apps/frontend/__init__.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/moduleapp/apps/frontend
+
+creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/moduleapp/apps/frontend/templates
+
+copying flask/testsuite/test_apps/moduleapp/apps/frontend/templates/index.html -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/moduleapp/apps/frontend/templates
+
+creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/path
+
+creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/path/installed_package
+
+copying flask/testsuite/test_apps/path/installed_package/__init__.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/path/installed_package
+
+creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/subdomaintestmodule
+
+copying flask/testsuite/test_apps/subdomaintestmodule/__init__.py -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/subdomaintestmodule
+
+creating build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/subdomaintestmodule/static
+
+copying flask/testsuite/test_apps/subdomaintestmodule/static/hello.txt -> build/lib.linux-x86_64-2.7/flask/testsuite/test_apps/subdomaintestmodule/static
+
+running install_lib
+
+creating /usr/local/lib/python2.7/dist-packages/flask
+
+error: could not create '/usr/local/lib/python2.7/dist-packages/flask': Permission denied
+
+----------------------------------------
+Cleaning up...
+  Removing temporary dir /tmp/pip_build_nitrous...
+Command /usr/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip_build_nitrous/flask/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-TXRnup-record/install-record.txt --single-version-externally-managed --compile failed with error code 1 in /tmp/pip_build_nitrous/flask
+Exception information:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/pip/basecommand.py", line 122, in main
+    status = self.run(options, args)
+  File "/usr/lib/python2.7/dist-packages/pip/commands/install.py", line 283, in run
+    requirement_set.install(install_options, global_options, root=options.root_path)
+  File "/usr/lib/python2.7/dist-packages/pip/req.py", line 1436, in install
+    requirement.install(install_options, global_options, *args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/pip/req.py", line 707, in install
+    cwd=self.source_dir, filter_stdout=self._filter_install, show_stdout=False)
+  File "/usr/lib/python2.7/dist-packages/pip/util.py", line 715, in call_subprocess
+    % (command_desc, proc.returncode, cwd))
+InstallationError: Command /usr/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip_build_nitrous/flask/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-TXRnup-record/install-record.txt --single-version-externally-managed --compile failed with error code 1 in /tmp/pip_build_nitrous/flask

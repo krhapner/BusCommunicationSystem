@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+<h1> New Bus Driver </h1>
+
+<h3> Add a new bus driver </h3>
+<form action="" method="post">
+  <input type="text" placeholder="First Name" name="firstname" value="{{request.form.firstname }}"><br><br>
+  <input type="text" placeholder="Last Name" name="lastname" value="{{request.form.lastname }}"><br><br>
+  <input type="text" placeholder="Phone" name="phone" value="{{request.form.phone }}"><br><br>
+  <input class="btn btn-default" type="submit" value="Add Bus Driver">
+</form>
+<br>
+
+<p>Click <a href="/show_all_bus_drivers">here</a> to view ALL Bus Drivers</p>
+
+
+{% endblock %}
