@@ -18,8 +18,8 @@ with sqlite3.connect('bus_system.db') as connection:
     c.execute('DROP TABLE IF EXISTS MESSAGE')
     c.execute('CREATE TABLE MESSAGE(Message_id INTEGER PRIMARY KEY AUTOINCREMENT, Subject TEXT, Message TEXT, Sender TEXT, Date TEXT, Read INTEGER DEFAULT 0, Student_id REFERENCES STUDENT(Student_id), Driver_id REFERENCES DRIVER(Driver_id))')
     c.execute('INSERT INTO MESSAGE VALUES(1, "Not Riding Today", "John Smith will not be riding the bus today", "John Smith", "2016-01-01", 0, 1, 1)')
-    c.execute('INSERT INTO MESSAGE VALUES(2, "Not Riding Today", "Sarah Andrew will not be riding the bus today", "John Smith", "2016-01-01", 0, 1, 1)')
-    c.execute('INSERT INTO MESSAGE VALUES(3, "Not Riding Today", "Billy Brown will not be riding the bus today", "John Smith", "2016-01-01", 0, 1, 2)')
+    c.execute('INSERT INTO MESSAGE VALUES(2, "Not Riding Today", "Sarah Andrews will not be riding the bus today", "Chris Andrews", "2016-01-01", 0, 1, 1)')
+    c.execute('INSERT INTO MESSAGE VALUES(3, "Not Riding Today", "Billy Brown will not be riding the bus today", "Rachael Brown", "2016-01-01", 0, 1, 2)')
 
 
     c.execute('DROP TABLE IF EXISTS STUDENT')
