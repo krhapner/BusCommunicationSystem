@@ -1,6 +1,27 @@
 {% extends "base.html" %}
 {% block content %}
 
+<script>
+  function picture(){
+    var value = document.getElementById('condition_id').value;
+    console.log(value);
+    if ( value < 3) {
+      document.getElementById('GreenBus').style.display = 'block';
+      document.getElementById('YellowBus').style.display = 'none';
+      document.getElementById('RedBus').style.display = 'none';
+    } else if (value > 2 && value < 5){
+      document.getElementById('YellowBus').style.display = 'block';
+      document.getElementById('GreenBus').style.display = 'none';
+      document.getElementById('RedBus').style.display = 'none';
+    } else {
+      document.getElementById('RedBus').style.display = 'block';
+      document.getElementById('YellowBus').style.display = 'none';
+      document.getElementById('GreenBus').style.display = 'none';
+
+    }
+
+  }
+</script>
 
 <h1> Edit Route</h1>
 
@@ -31,7 +52,7 @@
   {% endif %}
   {% endfor %}
   </select><br><br>
-  Minutes Late: <select name="condition_id" class = "dropdown">
+  Minutes Late: <select name="condition_id" class = "dropdown" id="condition_id" onload= "picture();" onchange ="picture();">
   {% for options in Condition %}
     {% if options.Minutes_late == Route.Minutes_late: %}
       <option value="{{options.Condition_id}}" selected="selected" > {{options.Minutes_late}} </option>
@@ -41,6 +62,10 @@
   {% endfor %}
   </select>
   {% endfor %}
+  <br> <br>
+  <img id="GreenBus" src="../static/GreenBus2.jpg" style="display:none" width = 25% height = 25%></img>
+<img id="YellowBus" src="../static/YellowBus2.jpg"  style="display:none" width = 25% height = 25%></img>
+<img id="RedBus" src="../static/RedBus2.jpg" style="display:none" width = 25% height = 25%></img>
 
   <br><br><input class="btn btn-default" type="submit" value="Update Route">
 </form>

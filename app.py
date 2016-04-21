@@ -57,11 +57,11 @@ def home():
 def admin():
     g.db = connect_db()
     g.db.text_factory = str
-    cur = g.db.execute('select COUNT(Route_number) from ROUTE WHERE Condition_id > 1 AND Condition_id < 4')
+    cur = g.db.execute('select COUNT(Route_number) from ROUTE WHERE Condition_id > 2 AND Condition_id < 5')
     yellow_buses = cur.fetchone()
-    cur = g.db.execute('select COUNT(Route_number) from ROUTE WHERE Condition_id < 2')
+    cur = g.db.execute('select COUNT(Route_number) from ROUTE WHERE Condition_id < 3')
     On_time_buses = cur.fetchone()
-    cur = g.db.execute('select COUNT(Route_number) from ROUTE WHERE Condition_id > 3')
+    cur = g.db.execute('select COUNT(Route_number) from ROUTE WHERE Condition_id > 4')
     very_late = cur.fetchone()
     cur = g.db.execute('SELECT Route_number FROM ROUTE AS R JOIN BUS AS B ON R.Bus_number = B.Bus_number GROUP BY Route_number HAVING (SELECT COUNT(Student_id) FROM ROUTE AS R JOIN STUDENT AS S ON R.Route_number = S.Route_number GROUP BY R.Route_number) >= capacity')
     past_capacity = [dict(Route_number = row[0]) for row in cur.fetchall()]
