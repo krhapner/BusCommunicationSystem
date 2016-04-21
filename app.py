@@ -449,7 +449,12 @@ def student_parent_view(student_id):
     Route_info = [dict(First_name = row[1], Last_name = row[2], Address = row[3], Birthdate = row[4], Pick_up_location = row[9], Start_time = row[10], Drop_off_location = row[11], End_time = row[12], Color = row[17], Description = row[18], Minutes_late = row[19]) for row in route_info.fetchall()]
     cur = g.db.execute('SELECT D.First_name, D.Last_name, D.Phone FROM DRIVER AS D JOIN ROUTE AS R ON R.Driver_id = D.Driver_id JOIN STUDENT AS S ON S.Route_number = R.Route_number WHERE Student_id = %s' % student_id)
     driver_info = [dict(Driver_First_name = row[0], Driver_Last_name = row[1], Driver_Phone = row[2]) for row in cur.fetchall()]
-    return render_template('student_parent_view.html', Route_info = Route_info, student_id = student_id, driver_info = driver_info)
+    cur = g.db.execute("SELECT COUNT(Route_number) FROM STUDENT WHERE Student_id = %s" % student_id)
+    if(cur.fetchone() == (0,)):
+      has_a_route = "no"
+    else:
+      has_a_route = "yes"
+    return render_template('student_parent_view.html', Route_info = Route_info, student_id = student_id, driver_info = driver_info, has_a_route = has_a_route)
 
 @app.route('/welcome')
 def welcome():

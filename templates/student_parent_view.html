@@ -1,6 +1,14 @@
 {% extends "base.html" %}
 {% block content %}
 
+{% if has_a_route == "no" %}
+<h1>Welcome Parents/Students! </h1><br>
+<h4><span style="color:red" class="glyphicon glyphicon-exclamation-sign"></span> At this time, you do not have a route.<br><br>
+<p> Please wait for Administration to place you in a route before you view your <b> route status </b> and/or <b> send a message </b> to your bus driver </p>
+</h4>
+
+{% else: %}
+
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -45,6 +53,7 @@
 
   <br><br>
 
+{%endif%}
 <p>Click <a href="/">here</a> to go back to HOME</p>
 
 
